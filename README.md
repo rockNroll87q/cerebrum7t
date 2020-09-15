@@ -2,7 +2,7 @@
 
 ## Description
 
-Python implementation of the paper "CEREBRUM-7T: fast and fully-volumetric brain segmentation of out-of-the-scanner 7T MR volumes" ([link](https://www.biorxiv.org/content/10.1101/2020.07.07.191536v1.full))
+Python implementation of the paper "CEREBRUM-7T: fast and fully-volumetric brain segmentation of out-of-the-scanner 7T MR volumes" ([link](https://www.biorxiv.org/content/10.1101/2020.07.07.191536v1.full)).
 
 <p align="center">
 <kbd>
