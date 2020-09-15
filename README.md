@@ -6,7 +6,7 @@ Python implementation of the paper "CEREBRUM-7T: fast and fully-volumetric brain
 
 <p align="center">
 <kbd>
-<img src="https://github.com/rockNroll87q/cerebrum7t/blob/master/graphical_abstract.png" width="600" />  
+<img src="https://github.com/rockNroll87q/cerebrum7t/blob/master/graphical_abstract.png" width="700" />  
 </kbd>
 </p>
 
