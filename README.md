@@ -21,10 +21,16 @@ pip install -r requirements.txt
 to install all the dependencies. 
 <i><b>N.B.</b> `tensorflow-gpu` is not needed neither for the training nor for the testing, but performance greatly degrades if the use of GPUs is not supported.</i>
 
+## Authors
+
+[Michele Svanera](https://github.com/rockNroll87q)
+
+[Dennis Bontempi](https://github.com/denbonte)
+
 
 ## Citation
 
-If you find this code useful in your research, please, consider citing our paper:
+If you find this code useful in your research, please consider citing our paper:
 
 ```
 @article {Svanera2020.07.07.191536,
