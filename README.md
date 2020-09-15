@@ -4,6 +4,8 @@
 
 Python implementation of the paper "CEREBRUM-7T: fast and fully-volumetric brain segmentation of out-of-the-scanner 7T MR volumes" ([link](https://www.biorxiv.org/content/10.1101/2020.07.07.191536v1.full))
 
+<p align="center"><img src="https://github.com/rockNroll87q/cerebrum7t/blob/master/graphical_abstract.pdf" alt="CEREBRuM logo"></p>
+
 In the paper, we tackle the problem of automatic 7T MRI segmentation. 
 The generated model is able to produce accurate multi-structure segmentation masks on six different classes, in only few seconds.
 Classes are: gray matter (GM), white matter (WM), cerebrospinal fluid (CSF), ventricles, cerebellum, brainstem, and basal ganglia.
