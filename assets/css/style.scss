@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+* {
+ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
 .page-header{
  color: #2D2B2B; 
  background-image: none;
