@@ -2,4 +2,4 @@ theme: jekyll-theme-cayman
 title: CEREBRUM 7T
 description: A fast and fully-volumetric brain segmentation of out-of-the-scanner 7T MR volumes
 
-
+show_downloads: [false]
