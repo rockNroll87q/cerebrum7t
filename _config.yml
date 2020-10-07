@@ -5,5 +5,5 @@ description: A fast and fully-volumetric brain segmentation of out-of-the-scanne
 show_downloads: [true]
 
 github:
-  zip_url: http://example.com/download.zip
+  zip_url: https://github.com/rockNroll87q/cerebrum7t
   another_url: https://www.biorxiv.org/content/10.1101/2020.07.07.191536v1
