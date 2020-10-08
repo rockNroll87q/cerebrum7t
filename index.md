@@ -8,15 +8,6 @@ Classes are: gray matter (GM), white matter (WM), cerebrospinal fluid (CSF), ven
 </p>
 
 
-# Usage
-
-## Training
-
-
-## Testing
-
-
-## Fine-tuning
 
 <hr>
 
