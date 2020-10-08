@@ -20,6 +20,12 @@ Classes are: gray matter (GM), white matter (WM), cerebrospinal fluid (CSF), ven
 ## Fine-tuning
 
 
+# Authors
+
+[Michele Svanera](https://github.com/rockNroll87q)
+&
+[Dennis Bontempi](https://github.com/denbonte)
+
 
 # Citation
 
