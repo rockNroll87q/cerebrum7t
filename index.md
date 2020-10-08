@@ -1,5 +1,13 @@
 <p align="center">
-	[Michele Svanera](https://www.michelesvanera.org/)&nbsp;&nbsp;&nbsp;[Dennis Bontempi](https://github.com/denbonte)&nbsp;&nbsp;&nbsp;[Sergio Benini](http://sergio-benini.unibs.it/)&nbsp;&nbsp;&nbsp;[Lars Muckli](http://muckli.psy.gla.ac.uk/)
+	[Michele Svanera](https://www.michelesvanera.org/)
+	
+	[Dennis Bontempi](https://github.com/denbonte)
+	
+	
+	[Sergio Benini](http://sergio-benini.unibs.it/)
+	
+	
+	[Lars Muckli](http://muckli.psy.gla.ac.uk/)
 </p>
 
 <p align="center">
