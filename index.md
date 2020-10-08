@@ -1,9 +1,8 @@
 <p align="center">
-<a href="https://your-site.com">Your link</a>
-[Michele Svanera](https://www.michelesvanera.org/), 
-[Dennis Bontempi](https://github.com/denbonte), 
-[Sergio Benini](http://sergio-benini.unibs.it/), 
-[Lars Muckli](http://muckli.psy.gla.ac.uk/)
+<a href="https://www.michelesvanera.org/">Michele Svanera</a>
+<a href="https://denbonte.me">Dennis Bontempi</a>
+<a href="http://sergio-benini.unibs.it/">Sergio Benini</a>
+<a href="http://muckli.psy.gla.ac.uk/">Lars Muckli</a>
 </p>
 
 <p align="center">
