@@ -1,7 +1,7 @@
 <p align="center">
-<a href="https://www.michelesvanera.org/">Michele Svanera</a>
-<a href="https://denbonte.me">Dennis Bontempi</a>
-<a href="http://sergio-benini.unibs.it/">Sergio Benini</a>
+<a href="https://www.michelesvanera.org/">Michele Svanera</a> *_*_* 
+<a href="https://denbonte.me">Dennis Bontempi</a> *_*_* 
+<a href="http://sergio-benini.unibs.it/">Sergio Benini</a> *_*_* 
 <a href="http://muckli.psy.gla.ac.uk/">Lars Muckli</a>
 </p>
 
