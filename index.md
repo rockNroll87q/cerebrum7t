@@ -1,4 +1,5 @@
-<center> [Michele Svanera](https://www.michelesvanera.org/)          [Dennis Bontempi](https://github.com/denbonte)          [Sergio Benini](http://sergio-benini.unibs.it/)          [Lars Muckli](http://muckli.psy.gla.ac.uk/)<center>
+<p align="center"> [Michele Svanera](https://www.michelesvanera.org/)          [Dennis Bontempi](https://github.com/denbonte)          [Sergio Benini](http://sergio-benini.unibs.it/)          [Lars Muckli](http://muckli.psy.gla.ac.uk/)
+</p>
 
 <p align="center">
 <img src="https://github.com/rockNroll87q/cerebrum7t/blob/master/graphical_abstract.png" width="700" />  
