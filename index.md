@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="https://github.com/rockNroll87q/cerebrum7t/blob/master/graphical_abstract.png" width="700" />  
+<img src="/misc/graphical_abstract.png" width="700" />  
 </p>
 
 In our work, we tackle the problem of automatic 7T MRI segmentation. 
