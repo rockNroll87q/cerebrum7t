@@ -1,6 +1,8 @@
 # <p align="center">CEREBRUM-7T</p>
 
-Visit the [Project page](https://rocknroll87q.github.io/cerebrum7t/).
+Visit the
+<a href="https://rocknroll87q.github.io/cerebrum7t/" target="_blank">Project page</a>.
+
 
 ## Description
 
