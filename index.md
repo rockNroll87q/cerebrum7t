@@ -4,7 +4,7 @@ The generated model is able to produce accurate multi-structure segmentation mas
 Classes are: gray matter (GM), white matter (WM), cerebrospinal fluid (CSF), ventricles, cerebellum, brainstem, and basal ganglia.
 
 <p align="center">
-<img src="./misc/graphical_abstract.png" width="700" />  
+<img src="./misc/graphical_abstract.png" width="800" />  
 </p>
 
 
