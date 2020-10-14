@@ -1,4 +1,3 @@
-<hr>
 
 <p align="center">
 <img src="./misc/graphical_abstract.png" width="800" />  
