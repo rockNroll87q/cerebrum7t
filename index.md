@@ -4,16 +4,6 @@
 <img src="./misc/graphical_abstract.png" width="800" />  
 </p>
 
-<hr>
-# Results
-
-<p align="center">
-
-<kbd>
-<img src="https://media.giphy.com/media/3o7btQ0NH6Kl8CxCfK/giphy.gif" height="300" />  
-</kbd>
-
-</p>
 
 <hr>
 # Abstract
@@ -29,6 +19,16 @@ In the experimental part, a combination of objective numerical evaluations, and 
 carried out by experienced neuroimaging users, confirms that the proposed solution outperforms the GT it was trained on in segmentation accuracy, and it is suitable for many neuroimaging studies.
 Furthermore, to allow replicability and encourage extensions, we release the code, 7T data (145 volumes), and other materials, including the GT and the survey.
 
+<hr>
+# Results
+
+<p align="center">
+
+<kbd>
+<img src="https://media.giphy.com/media/3o7btQ0NH6Kl8CxCfK/giphy.gif" height="300" />  
+</kbd>
+
+</p>
 
 
 <hr>
