@@ -8,7 +8,7 @@ Classes are: gray matter (GM), white matter (WM), cerebrospinal fluid (CSF), ven
 </p>
 
 
-# Abstract
+# Abstract
 
 Ultra high field MRI enables sub-millimetre resolution imaging of human brain, allowing to disentangle complex functional circuits across different cortical depths.
 The capability of using these innovative scanners at 7 Tesla (7T) poses new challenges, as for example those related to the current lack of standardised acquisition protocols, and of automatised pipelines for image analysis.
