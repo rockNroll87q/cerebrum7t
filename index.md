@@ -8,6 +8,17 @@ Classes are: gray matter (GM), white matter (WM), cerebrospinal fluid (CSF), ven
 </p>
 
 <hr>
+# Results
+
+<p align="center">
+
+<kbd>
+<img src="" width="300" height="300" />  
+</kbd>
+
+</p>
+
+<hr>
 # Abstract
 
 Ultra high field MRI enables sub-millimetre resolution imaging of human brain, allowing to disentangle complex functional circuits across different cortical depths.
