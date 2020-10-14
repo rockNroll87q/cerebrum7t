@@ -1,7 +1,4 @@
 <hr>
-In our work, we tackle the problem of automatic 7T MRI segmentation. 
-The generated model is able to produce accurate multi-structure segmentation masks on six different classes, in only few seconds.
-Classes are: gray matter (GM), white matter (WM), cerebrospinal fluid (CSF), ventricles, cerebellum, brainstem, and basal ganglia.
 
 <p align="center">
 <img src="./misc/graphical_abstract.png" width="800" />  
