@@ -18,7 +18,7 @@ Classes are: gray matter (GM), white matter (WM), cerebrospinal fluid (CSF), ven
 
 ## Data
 
-At this link you can download the data; you need an EBRAINS account, that you can get (here)[https://ebrains.eu/register/]. 
+At this link you can download the data; you need an EBRAINS account, that you can get [here](https://ebrains.eu/register/). 
 
 ### Requirements
 
