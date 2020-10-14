@@ -10,7 +10,7 @@
 <p align="center">
 
 <kbd>
-<img src="" width="300" height="300" />  
+<img src="https://media.giphy.com/media/3o7btQ0NH6Kl8CxCfK/giphy.gif" height="300" />  
 </kbd>
 
 </p>
