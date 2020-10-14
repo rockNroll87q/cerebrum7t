@@ -16,6 +16,10 @@ Classes are: gray matter (GM), white matter (WM), cerebrospinal fluid (CSF), ven
 
 ## Usage
 
+## Data
+
+At this link you can download the data; you need an EBRAINS account, that you can get (here)[https://ebrains.eu/register/]. 
+
 ### Requirements
 
 The code needs some dependencies that you can find in `requirements.txt`. Download the repo and run:
