@@ -23,9 +23,7 @@ Furthermore, to allow replicability and encourage extensions, we release the cod
 
 <p align="center">
 
-<kbd>
 <img src="https://media.giphy.com/media/3o7btQ0NH6Kl8CxCfK/giphy.gif" height="300" />  
-</kbd>
 
 </p>
 
