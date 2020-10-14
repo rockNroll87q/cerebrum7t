@@ -24,12 +24,7 @@ Furthermore, to allow replicability and encourage extensions, we release the cod
 
 
 <hr>
-# Paper
-
-
-
-
-## Citation
+# Citation
 
 Svanera, M., Benini, S., Bontempi, D., & Muckli, L. (2020). CEREBRUM-7T: fast and fully-volumetric brain segmentation of out-of-the-scanner 7T MR volumes. bioRxiv.
 
