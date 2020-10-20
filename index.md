@@ -29,13 +29,13 @@ Furthermore, to allow replicability and encourage extensions, we release the cod
 
 
 <hr>
-# Strengths and Weaknesses of the work
+# Pros and Cons
 
 <table border="0">
  <tr>
     <td><b style="font-size:30px"></b></td>
-    <td><b style="font-size:30px">PROs</b></td>
-    <td><b style="font-size:30px">CONs</b></td>
+    <td><center><span style='font-size:100px;'>&#9989;</span></center></td>
+    <td><center><span style='font-size:100px;'>&#10060;</span></center></td>
  </tr>
  <tr>
     <td><u style="font-size:16px">Timing</u></td>
@@ -62,8 +62,8 @@ Furthermore, to allow replicability and encourage extensions, we release the cod
     <td>Works well only if... &#8594;</td>
     <td>Needs fine-tuning</td>
  </tr>
+ 
 </table>
-
 
 <hr>
 # Citation
