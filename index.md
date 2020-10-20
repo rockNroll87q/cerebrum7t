@@ -29,6 +29,44 @@ Furthermore, to allow replicability and encourage extensions, we release the cod
 
 
 <hr>
+# Strengths and Weaknesses of the work
+
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px"></b></td>
+    <td><b style="font-size:30px">PROs</b></td>
+    <td><b style="font-size:30px">CONs</b></td>
+ </tr>
+ <tr>
+    <td><u style="font-size:16px">Timing</u></td>
+    <td>Very fast inference: <code>~ 5/10</code> sec.</td>
+    <td>Training needs <code>~ 24</code> hours</td>
+ </tr>
+ <tr>
+    <td><u style="font-size:16px">Hardware</u></td>
+    <td>Inference easily done on CPU</td>
+    <td>Needs 4 GPUs for training</td>
+ </tr>
+ <tr>
+    <td><u style="font-size:16px">Training labels</u></td>
+    <td>Does not need accurate labels</td>
+    <td>Does not overcome systematic errors</td>
+ </tr>
+ <tr>
+    <td><u style="font-size:16px">Visual outcome</u></td>
+    <td>Very clean and smooth segmentation</td>
+    <td>Does not recover from "burn" artefacts</td>
+ </tr>
+ <tr>
+    <td><u style="font-size:16px">New dataset</u></td>
+    <td>Works well only if... &#8594;</td>
+    <td>Needs fine-tuning</td>
+ </tr>
+ 
+</table>
+
+
+<hr>
 # Citation
 
 Svanera, M., Benini, S., Bontempi, D., & Muckli, L. (2020). CEREBRUM-7T: fast and fully-volumetric brain segmentation of out-of-the-scanner 7T MR volumes. bioRxiv.
