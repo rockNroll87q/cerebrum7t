@@ -31,8 +31,7 @@ Furthermore, to allow replicability and encourage extensions, we release the cod
 <hr>
 # Pros and Cons
 
-<center>
-<table border="0">
+<table>
  <tr>
     <td><b style="font-size:30px"></b></td>
     <td><center><span style='font-size:100px;'>&#9989;</span></center></td>
@@ -65,7 +64,6 @@ Furthermore, to allow replicability and encourage extensions, we release the cod
  </tr>
  
 </table>
-</center>
 
 <hr>
 # Citation
