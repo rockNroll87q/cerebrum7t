@@ -62,7 +62,6 @@ Furthermore, to allow replicability and encourage extensions, we release the cod
     <td>Works well only if... &#8594;</td>
     <td>Needs fine-tuning</td>
  </tr>
- 
 </table>
 
 
