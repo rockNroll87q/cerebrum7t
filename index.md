@@ -37,7 +37,7 @@ Furthermore, to allow replicability and encourage extensions, we release the cod
     <td><b style="font-size:30px">PROs</b></td>
     <td><b style="font-size:30px">CONs</b></td>
  </tr>
- <tr>
+<!--  <tr>
     <td><u style="font-size:16px">Timing</u></td>
     <td>Very fast inference: <code>~ 5/10</code> sec.</td>
     <td>Training needs <code>~ 24</code> hours</td>
@@ -61,7 +61,7 @@ Furthermore, to allow replicability and encourage extensions, we release the cod
     <td><u style="font-size:16px">New dataset</u></td>
     <td>Works well only if... &#8594;</td>
     <td>Needs fine-tuning</td>
- </tr>
+ </tr> -->
 </table>
 
 
