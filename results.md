@@ -9,11 +9,12 @@ title: CEREBRUM 7T
 
 In this page, there are results of our method with data from two different sites, both T1w: on Glasgow data and on AHEAD data.
 
+<hr>
 ## Glasgow
 
 
 
-
+<hr>
 ## AHEAD: a fine tuning experiment
 
 In this experiment, we accomplish very good results using only 20 volumes to `fine tuning` the model (trained on Glasgow data) on AHEAD data  ([link](https://doi.org/10.1016/j.neuroimage.2020.117200)).
