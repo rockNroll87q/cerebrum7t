@@ -26,8 +26,11 @@ In addition, our method produces much smoother results.
 
 But judge yourself! Download the segmentation masks for both methods [here](https://github.com/rockNroll87q/cerebrum7t/tree/gh-pages/results/AHEAD/seg_labels).
 
-<!--256 × 352-->
-<!---->
+<!--  <tr>
+    <td><b style="font-size:30px"></b>sub_0068</td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0068_gt.gif" width="256" height="352"/></center></td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0068_predicted.gif" width="256" height="352" />  </center></td>
+ </tr>-->
 
 <table align="center" cellspacing="0" cellpadding="0">
  <tr>
@@ -39,8 +42,8 @@ But judge yourself! Download the segmentation masks for both methods [here](http
 
  <tr>
     <td><b style="font-size:30px"></b>sub_0014</td>
-    <td><center><img src="./results/AHEAD/meshes/sub-0014_FreeSurfer.gif" /></center></td>
-    <td><center><img src="./results/AHEAD/meshes/sub-0014_CEREBRUM.gif"  />  </center></td>
+    <td><center><img src="./results/AHEAD/meshes/sub-0014_FreeSurfer.gif" width="400" /></center></td>
+    <td><center><img src="./results/AHEAD/meshes/sub-0014_CEREBRUM.gif" width="400" />  </center></td>
  </tr>
  
  <tr>
