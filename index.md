@@ -27,10 +27,10 @@ Furthermore, to allow replicability and encourage extensions, we release the cod
 </p> -->
 
 <kbd>
-<img src="./misc/ahead.png" height="300" />  
+<img src="./misc/UoG.png" height="300" width="300"/>  
 </kbd>
 <kbd>
-<img src="./misc/UoG.png" height="300" />  
+<img src="./misc/ahead.png" height="300" width="300" />  
 </kbd>
 
 <a href="https://rocknroll87q.github.io/cerebrum7t/results">Results</a>
