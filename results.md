@@ -1,6 +1,3 @@
-# ---
-layout: page
-title: Results
----
+# Results
 
 some results here!
