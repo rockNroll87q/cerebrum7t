@@ -24,6 +24,8 @@ Comparisons that you can see below are made against FreeSurfer v7 on the testing
 As it is possible to see, FreeSurfer v7, which has been improved for UHF data, is able to segment very well multiple areas, but the inhomogeneity of the scan affects its ability to correctly select all the areas. It produces some "holes" in the segmeantation; please notice parietal and occipital lobes.
 In addition, our method produces much smoother results.
 
+But judge yourself! Download the segmentation masks for both methods [here](https://github.com/rockNroll87q/cerebrum7t/tree/gh-pages/results/AHEAD/seg_labels).
+
 <table align="center" width="80%" cellspacing="0" cellpadding="0">
  <tr>
  	<td><b style="font-size:20px">Subject</b></td>
