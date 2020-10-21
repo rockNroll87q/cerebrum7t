@@ -41,7 +41,7 @@ But judge yourself! Download the segmentation masks for both methods [here](http
  
 
  <tr>
-    <td><b style="font-size:30px"></b>sub_0014</td>
+    <td><b style="font-size:30px"></b>sub_0014 (WM only)</td>
     <td><center><img src="./results/AHEAD/meshes/sub-0014_FreeSurfer.gif" width="400" /></center></td>
     <td><center><img src="./results/AHEAD/meshes/sub-0014_CEREBRUM.gif" width="400" />  </center></td>
  </tr>
