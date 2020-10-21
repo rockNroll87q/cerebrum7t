@@ -21,12 +21,12 @@ Furthermore, to allow replicability and encourage extensions, we release the cod
 <hr>
 # Results
 
+<!--
 <p align="center">
-
 <img src="https://media.giphy.com/media/3o7btQ0NH6Kl8CxCfK/giphy.gif" height="300" />  
+</p> -->
 
-</p>
-
+<a href="{{site.baseurl}}/results">Results</a>
 
 <hr>
 # Pros and Cons
