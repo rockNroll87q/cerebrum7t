@@ -26,7 +26,7 @@ Furthermore, to allow replicability and encourage extensions, we release the cod
 <img src="https://media.giphy.com/media/3o7btQ0NH6Kl8CxCfK/giphy.gif" height="300" />  
 </p> -->
 
-<a href="{{site.baseurl}}/results">Results</a>
+<a href="https://rocknroll87q.github.io/cerebrum7t/results">Results</a>
 
 <hr>
 # Pros and Cons
