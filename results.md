@@ -32,55 +32,55 @@ In addition, our method produces much smoother results.
  
 
  <tr>
-    <td><b style="font-size:30px"></b>Sub_0014</td>
+    <td><b style="font-size:30px"></b>sub_0014</td>
     <td><center><img src="./GIF/sub-0014_gt.gif" height="300"/></center></td>
     <td><center><img src="./GIF/sub-0014_predicted.gif" height="300" />  </center></td>
  </tr>
  
   <tr>
-    <td><b style="font-size:30px"></b>Sub_0025</td>
+    <td><b style="font-size:30px"></b>sub_0025</td>
     <td><center><img src="./GIF/sub-0025_gt.gif" height="300"/></center></td>
     <td><center><img src="./GIF/sub-0025_predicted.gif" height="300" />  </center></td>
  </tr>
  
   <tr>
-    <td><b style="font-size:30px"></b>Sub_0035</td>
+    <td><b style="font-size:30px"></b>sub_0035</td>
     <td><center><img src="./GIF/sub-0035_gt.gif" height="300"/></center></td>
     <td><center><img src="./GIF/sub-0035_predicted.gif" height="300" />  </center></td>
  </tr>
  
   <tr>
-    <td><b style="font-size:30px"></b>Sub_0011</td>
+    <td><b style="font-size:30px"></b>sub_0011</td>
     <td><center><img src="./GIF/sub-0011_gt.gif" height="300"/></center></td>
     <td><center><img src="./GIF/sub-0011_predicted.gif" height="300" />  </center></td>
  </tr>
 
   <tr>
-    <td><b style="font-size:30px"></b>Sub_0037</td>
+    <td><b style="font-size:30px"></b>sub_0037</td>
     <td><center><img src="./GIF/sub-0037_gt.gif" height="300"/></center></td>
     <td><center><img src="./GIF/sub-0037_predicted.gif" height="300" />  </center></td>
  </tr>
  
   <tr>
-    <td><b style="font-size:30px"></b>Sub_0038</td>
+    <td><b style="font-size:30px"></b>sub_0038</td>
     <td><center><img src="./GIF/sub-0038_gt.gif" height="300"/></center></td>
     <td><center><img src="./GIF/sub-0038_predicted.gif" height="300" />  </center></td>
  </tr>
  
   <tr>
-    <td><b style="font-size:30px"></b>Sub_0040</td>
+    <td><b style="font-size:30px"></b>sub_0040</td>
     <td><center><img src="./GIF/sub-0040_gt.gif" height="300"/></center></td>
     <td><center><img src="./GIF/sub-0040_predicted.gif" height="300" />  </center></td>
  </tr>
  
   <tr>
-    <td><b style="font-size:30px"></b>Sub_0068</td>
+    <td><b style="font-size:30px"></b>sub_0068</td>
     <td><center><img src="./GIF/sub-0068_gt.gif" height="300"/></center></td>
     <td><center><img src="./GIF/sub-0068_predicted.gif" height="300" />  </center></td>
  </tr>
  
   <tr>
-    <td><b style="font-size:30px"></b>Sub_0093</td>
+    <td><b style="font-size:30px"></b>sub_0093</td>
     <td><center><img src="./GIF/sub-0093_gt.gif" height="300"/></center></td>
     <td><center><img src="./GIF/sub-0093_predicted.gif" height="300" />  </center></td>
  </tr>
