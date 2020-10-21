@@ -24,8 +24,8 @@ Comparisons that you can see below are made against FreeSurfer v7 on the testing
  
  <tr>
     <td><b style="font-size:30px"></b>Sub_0000</td>
-    <td><center><img src="./GIF/sub-001_gt.gif" height="300"/></center></td>
-    <td><center><img src="./GIF/sub-001_predicted.gif" height="300" />  </center></td>
+    <td><center><img src="./GIF/sub-0011_gt.gif" height="300"/></center></td>
+    <td><center><img src="./GIF/sub-0011_predicted.gif" height="300" />  </center></td>
  </tr>
 
  
