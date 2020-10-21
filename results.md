@@ -1,6 +1,6 @@
 ---
 layout: page
-<!--title: Results-->
+title: CEREBRUM 7T
 ---
 
 [<-- main page](https://rocknroll87q.github.io/cerebrum7t/)
