@@ -26,7 +26,7 @@ Furthermore, to allow replicability and encourage extensions, we release the cod
 <img src="https://media.giphy.com/media/3o7btQ0NH6Kl8CxCfK/giphy.gif" height="300" />  
 </p> -->
 
-Visit this page for more visual <a href="https://rocknroll87q.github.io/cerebrum7t/results">results</a>.
+Please visit the <a href="https://rocknroll87q.github.io/cerebrum7t/results">results page</a>.
 
 
 <hr>
