@@ -8,7 +8,9 @@ In this page, there are results of our method with data from two different sites
 
 
 
-## AHEAD: `fine tuning`
+## AHEAD: a `fine tuning` experiment
 
-In this experiment, we accomplished very good results making `fine tuning` for AHEAD data. We selected only 20 volumes to perform fine tuning using our model trained on Glasgow data. Comparisons are made against FreeSurfer v7.
+In this experiment, we accomplish very good results using only 20 volumes to `fine tuning` the model (trained on Glasgow data) on AHEAD data.
+The labels used for training were described in the paper, while the labels for fine tunings derive from FreeSurfer v7.
+Comparisons that you can see below are made against FreeSurfer v7 on the testing set.
 
