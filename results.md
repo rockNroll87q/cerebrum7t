@@ -20,7 +20,7 @@ In this experiment, we accomplish very good results using only 20 volumes to `fi
 The labels used for training were described in the paper, while the labels for fine tunings derive from FreeSurfer v7.
 Comparisons that you can see below are made against FreeSurfer v7 on the testing set.
 
-As it is possible to see, FreeSurfer v7, which has been improved for UHF data, is able to segment very well multiple areas, but the inhomogeneity of the scan affects its ability to correctly select all the areas. 
+As it is possible to see, FreeSurfer v7, which has been improved for UHF data, is able to segment very well multiple areas, but the inhomogeneity of the scan affects its ability to correctly select all the areas. It produces some "holes" in the segmeantation; please notice parietal and occipital lobes.
 In addition, our method produces much smoother results.
 
 <table align="center" width="80%" cellspacing="0" cellpadding="0">
