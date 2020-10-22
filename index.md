@@ -60,7 +60,7 @@ Please visit the <a href="https://rocknroll87q.github.io/cerebrum7t/results">res
  </tr>
  <tr>
     <td><u style="font-size:16px">New dataset</u></td>
-    <td>Works well only if... &#8594;</td>
+    <td>Works very well but only if... &#8594;</td>
     <td>Needs fine-tuning</td>
  </tr>
  
