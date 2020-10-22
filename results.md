@@ -28,8 +28,8 @@ But judge yourself! Download the segmentation masks for both methods [here](http
 
 <!--  <tr>
     <td><b style="font-size:30px"></b>sub_0068</td>
-    <td><center><img src="./results/AHEAD/GIF/sub-0068_gt.gif" width="256" height="352"/></center></td>
-    <td><center><img src="./results/AHEAD/GIF/sub-0068_predicted.gif" width="256" height="352" />  </center></td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0068_FreeSurfer.gif" width="256" height="352"/></center></td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0068_CEREBRUM.gif" width="256" height="352" />  </center></td>
  </tr>-->
 
 <table align="center" cellspacing="0" cellpadding="0">
@@ -46,57 +46,63 @@ But judge yourself! Download the segmentation masks for both methods [here](http
     <td><center><img src="./results/AHEAD/meshes/sub-0014_CEREBRUM.gif" width="400" />  </center></td>
  </tr>
  
+  <tr>
+    <td><b style="font-size:30px"></b>sub_0000</td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0000_FreeSurfer.gif" /></center></td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0000_CEREBRUM.gif"  />  </center></td>
+ </tr>
+ 
  <tr>
     <td><b style="font-size:30px"></b>sub_0014</td>
-    <td><center><img src="./results/AHEAD/GIF/sub-0014_gt.gif" /></center></td>
-    <td><center><img src="./results/AHEAD/GIF/sub-0014_predicted.gif"  />  </center></td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0014_FreeSurfer.gif" /></center></td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0014_CEREBRUM.gif"  />  </center></td>
  </tr>
  
   <tr>
     <td><b style="font-size:30px"></b>sub_0025</td>
-    <td><center><img src="./results/AHEAD/GIF/sub-0025_gt.gif" /></center></td>
-    <td><center><img src="./results/AHEAD/GIF/sub-0025_predicted.gif"  />  </center></td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0025_FreeSurfer.gif" /></center></td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0025_CEREBRUM.gif"  />  </center></td>
  </tr>
  
   <tr>
     <td><b style="font-size:30px"></b>sub_0035</td>
-    <td><center><img src="./results/AHEAD/GIF/sub-0035_gt.gif" /></center></td>
-    <td><center><img src="./results/AHEAD/GIF/sub-0035_predicted.gif"  />  </center></td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0035_FreeSurfer.gif" /></center></td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0035_CEREBRUM.gif"  />  </center></td>
  </tr>
  
   <tr>
     <td><b style="font-size:30px"></b>sub_0011</td>
-    <td><center><img src="./results/AHEAD/GIF/sub-0011_gt.gif" /></center></td>
-    <td><center><img src="./results/AHEAD/GIF/sub-0011_predicted.gif"  />  </center></td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0011_FreeSurfer.gif" /></center></td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0011_CEREBRUM.gif"  />  </center></td>
  </tr>
 
   <tr>
     <td><b style="font-size:30px"></b>sub_0037</td>
-    <td><center><img src="./results/AHEAD/GIF/sub-0037_gt.gif" /></center></td>
-    <td><center><img src="./results/AHEAD/GIF/sub-0037_predicted.gif"  />  </center></td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0037_FreeSurfer.gif" /></center></td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0037_CEREBRUM.gif"  />  </center></td>
  </tr>
  
   <tr>
     <td><b style="font-size:30px"></b>sub_0038</td>
-    <td><center><img src="./results/AHEAD/GIF/sub-0038_gt.gif" /></center></td>
-    <td><center><img src="./results/AHEAD/GIF/sub-0038_predicted.gif"  />  </center></td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0038_FreeSurfer.gif" /></center></td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0038_CEREBRUM.gif"  />  </center></td>
  </tr>
  
   <tr>
     <td><b style="font-size:30px"></b>sub_0040</td>
-    <td><center><img src="./results/AHEAD/GIF/sub-0040_gt.gif" /></center></td>
-    <td><center><img src="./results/AHEAD/GIF/sub-0040_predicted.gif"  />  </center></td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0040_FreeSurfer.gif" /></center></td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0040_CEREBRUM.gif"  />  </center></td>
  </tr>
  
   <tr>
     <td><b style="font-size:30px"></b>sub_0068</td>
-    <td><center><img src="./results/AHEAD/GIF/sub-0068_gt.gif" /></center></td>
-    <td><center><img src="./results/AHEAD/GIF/sub-0068_predicted.gif"  />  </center></td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0068_FreeSurfer.gif" /></center></td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0068_CEREBRUM.gif"  />  </center></td>
  </tr>
  
   <tr>
     <td><b style="font-size:30px"></b>sub_0093</td>
-    <td><center><img src="./results/AHEAD/GIF/sub-0093_gt.gif" /></center></td>
-    <td><center><img src="./results/AHEAD/GIF/sub-0093_predicted.gif"  />  </center></td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0093_FreeSurfer.gif" /></center></td>
+    <td><center><img src="./results/AHEAD/GIF/sub-0093_CEREBRUM.gif"  />  </center></td>
  </tr>
 </table>
