@@ -14,6 +14,7 @@ In this page, there are results of our method with data from two different sites
 
 ### Reconstructed meshes
 
+Below reconstructed meshes of a testing volume using the different labels obtained with CEREBRUM7T.
 
 
 <table align="center" cellspacing="0" cellpadding="0">
