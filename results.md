@@ -12,6 +12,41 @@ In this page, there are results of our method with data from two different sites
 <hr>
 ## Glasgow
 
+### Reconstructed meshes
+
+
+
+<table align="center" cellspacing="0" cellpadding="0">
+<!-- <tr>
+ 	<td><b style="font-size:20px">Subject</b></td>
+ 	<td><center><b style="font-size:20px">FreeSurfer v7</b></center></td> 
+ 	<td><center><b style="font-size:20px">CEREBRUM 7T</b></center></td> 
+ </tr>-->
+ 
+
+ <tr>
+    <td><center><img src="./results/Glasgow/meshes/sub-055_ses-003_GM.gif" width="500" /></center></td>
+    <td><center><img src="./results/Glasgow/meshes/sub-055_ses-003_WM.gif" width="500" />  </center></td>
+ </tr>
+
+
+ <tr>
+    <td><center><img src="./results/Glasgow/meshes/sub-055_ses-003_BG.gif" width="500" /></center></td>
+    <td><center><img src="./results/Glasgow/meshes/sub-055_ses-003_VEN.gif" width="500" />  </center></td>
+ </tr>
+ 
+  <tr>
+    <td><center><img src="./results/Glasgow/meshes/sub-055_ses-003_BS.gif" width="500" /></center></td>
+    <td><center><img src="./results/Glasgow/meshes/sub-055_ses-003_CER.gif" width="500" />  </center></td>
+ </tr>
+ 
+</table>
+
+
+### Probability maps
+
+<center><img src="./results/Glasgow/prob_maps.png"/></center>
+<!--width="256" height="352"-->
 
 
 <hr>
