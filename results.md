@@ -15,7 +15,7 @@ In this page, there are results of our method with data from two different sites
 ### Reconstructed meshes
 
 Below reconstructed meshes of GM, WM, basal ganglia, ventricles, brain stem, and cerebellum of a testing volume, obtained with `CEREBRUM7T`.
-A light smoothing operation is performed (50 iterations) - _no manual corrections_ (BrainVoyager, Brain Innovation, Maastricht, The Netherlands).
+A light smoothing operation is performed (50 iterations - BrainVoyager) - **no manual corrections**.
 
 <table align="center" cellspacing="0" cellpadding="0">
 <!-- <tr>
