@@ -7,7 +7,7 @@ title: CEREBRUM 7T
 
 # Results
 
-In this page, there are results of our method with data from two different sites and different settings: training and testing on Glasgow data and a fine tuning experiment on AHEAD data.
+In this page, there are results of our method with data from two different sites and settings: 1. training and testing on Glasgow data and a 2. fine tuning experiment on AHEAD data.
 
 <hr>
 ## Glasgow
