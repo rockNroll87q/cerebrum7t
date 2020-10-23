@@ -7,15 +7,15 @@ title: CEREBRUM 7T
 
 # Results
 
-In this page, there are results of our method with data from two different sites, both T1w: on Glasgow data and on AHEAD data.
+In this page, there are results of our method with data from two different sites and different settings: training and testing on Glasgow data and a fine tuning experiment on AHEAD data.
 
 <hr>
 ## Glasgow
 
 ### Reconstructed meshes
 
-Below reconstructed meshes of a testing volume using the different labels obtained with CEREBRUM7T.
-
+Below reconstructed meshes of GM, WM, basal ganglia, ventricles, brain stem, and cerebellum of a testing volume, obtained with `CEREBRUM7T`.
+A light smoothing operation is performed (50 iterations) - _no manual corrections_ (BrainVoyager, Brain Innovation, Maastricht, The Netherlands).
 
 <table align="center" cellspacing="0" cellpadding="0">
 <!-- <tr>
