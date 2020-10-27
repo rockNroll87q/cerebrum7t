@@ -51,7 +51,7 @@ data/
 
 ## Publicly Available Test Data
 
-Along with the publicly available data, an 6-class segmentation mask is provided. The segmented classes (and the color code used in the notebooks and in the paper) are:
+Along with the publicly available data, a 6-class segmentation mask is provided. The segmented classes (and the color code used in the notebooks and in the paper) are:
 
 | Class ID | Substructure/Tissue |    Color    |
 |:--------:|:-------------------:|:-----------:|
