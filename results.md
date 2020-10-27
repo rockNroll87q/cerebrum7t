@@ -82,7 +82,7 @@ The segmented classes and the color code used below are:
 
 <table align="center" cellspacing="0" cellpadding="0">
  <tr>
- 	<td><b style="font-size:20px">Subject</b></td>
+ 	<td><b style="font-size:20px">Subj ID</b></td>
  	<td><center><b style="font-size:20px">FreeSurfer v7</b></center></td> 
  	<td><center><b style="font-size:20px">CEREBRUM 7T</b></center></td> 
  </tr>
@@ -93,7 +93,12 @@ The segmented classes and the color code used below are:
     <td><center><img src="./results/AHEAD/meshes/sub-0014_FreeSurfer.gif" width="400" /></center></td>
     <td><center><img src="./results/AHEAD/meshes/sub-0014_CEREBRUM.gif" width="400" />  </center></td>
  </tr>
- 
+  <tr>
+ 	<td style="font-size:15px">Subj ID</td>
+ 	<td><center style="font-size:15px">FreeSurfer v7</center></td> 
+ 	<td><center style="font-size:15px">CEREBRUM 7T</center></td> 
+ </tr>
+
   <tr>
     <td><b style="font-size:30px"></b>sub_0000</td>
     <td><center><img src="./results/AHEAD/GIF/sub-0000_FreeSurfer.gif" /></center></td>
@@ -101,11 +106,22 @@ The segmented classes and the color code used below are:
  </tr>
  
  <tr>
+ 	<td style="font-size:15px">Subj ID</td>
+ 	<td><center style="font-size:15px">FreeSurfer v7</center></td> 
+ 	<td><center style="font-size:15px">CEREBRUM 7T</center></td> 
+ </tr>
+
+ <tr>
     <td><b style="font-size:30px"></b>sub_0014</td>
     <td><center><img src="./results/AHEAD/GIF/sub-0014_FreeSurfer.gif" /></center></td>
     <td><center><img src="./results/AHEAD/GIF/sub-0014_CEREBRUM.gif"  />  </center></td>
  </tr>
- 
+  <tr>
+ 	<td style="font-size:15px">Subj ID</td>
+ 	<td><center style="font-size:15px">FreeSurfer v7</center></td> 
+ 	<td><center style="font-size:15px">CEREBRUM 7T</center></td> 
+ </tr>
+
   <tr>
     <td><b style="font-size:30px"></b>sub_0025</td>
     <td><center><img src="./results/AHEAD/GIF/sub-0025_FreeSurfer.gif" /></center></td>
@@ -113,23 +129,46 @@ The segmented classes and the color code used below are:
  </tr>
  
   <tr>
+ 	<td style="font-size:15px">Subj ID</td>
+ 	<td><center style="font-size:15px">FreeSurfer v7</center></td> 
+ 	<td><center style="font-size:15px">CEREBRUM 7T</center></td> 
+ </tr>
+
+  <tr>
     <td><b style="font-size:30px"></b>sub_0035</td>
     <td><center><img src="./results/AHEAD/GIF/sub-0035_FreeSurfer.gif" /></center></td>
     <td><center><img src="./results/AHEAD/GIF/sub-0035_CEREBRUM.gif"  />  </center></td>
  </tr>
- 
+  <tr>
+ 	<td style="font-size:15px">Subj ID</td>
+ 	<td><center style="font-size:15px">FreeSurfer v7</center></td> 
+ 	<td><center style="font-size:15px">CEREBRUM 7T</center></td> 
+ </tr>
+
   <tr>
     <td><b style="font-size:30px"></b>sub_0011</td>
     <td><center><img src="./results/AHEAD/GIF/sub-0011_FreeSurfer.gif" /></center></td>
     <td><center><img src="./results/AHEAD/GIF/sub-0011_CEREBRUM.gif"  />  </center></td>
  </tr>
 
+ <tr>
+ 	<td style="font-size:15px">Subj ID</td>
+ 	<td><center style="font-size:15px">FreeSurfer v7</center></td> 
+ 	<td><center style="font-size:15px">CEREBRUM 7T</center></td> 
+ </tr>
+
+
   <tr>
     <td><b style="font-size:30px"></b>sub_0037</td>
     <td><center><img src="./results/AHEAD/GIF/sub-0037_FreeSurfer.gif" /></center></td>
     <td><center><img src="./results/AHEAD/GIF/sub-0037_CEREBRUM.gif"  />  </center></td>
  </tr>
- 
+  <tr>
+ 	<td style="font-size:15px">Subj ID</td>
+ 	<td><center style="font-size:15px">FreeSurfer v7</center></td> 
+ 	<td><center style="font-size:15px">CEREBRUM 7T</center></td> 
+ </tr>
+
   <tr>
     <td><b style="font-size:30px"></b>sub_0038</td>
     <td><center><img src="./results/AHEAD/GIF/sub-0038_FreeSurfer.gif" /></center></td>
@@ -137,17 +176,34 @@ The segmented classes and the color code used below are:
  </tr>
  
   <tr>
+ 	<td style="font-size:15px">Subj ID</td>
+ 	<td><center style="font-size:15px">FreeSurfer v7</center></td> 
+ 	<td><center style="font-size:15px">CEREBRUM 7T</center></td> 
+ </tr>
+
+
+  <tr>
     <td><b style="font-size:30px"></b>sub_0040</td>
     <td><center><img src="./results/AHEAD/GIF/sub-0040_FreeSurfer.gif" /></center></td>
     <td><center><img src="./results/AHEAD/GIF/sub-0040_CEREBRUM.gif"  />  </center></td>
  </tr>
- 
+  <tr>
+ 	<td style="font-size:15px">Subj ID</td>
+ 	<td><center style="font-size:15px">FreeSurfer v7</center></td> 
+ 	<td><center style="font-size:15px">CEREBRUM 7T</center></td> 
+ </tr>
+
   <tr>
     <td><b style="font-size:30px"></b>sub_0068</td>
     <td><center><img src="./results/AHEAD/GIF/sub-0068_FreeSurfer.gif" /></center></td>
     <td><center><img src="./results/AHEAD/GIF/sub-0068_CEREBRUM.gif"  />  </center></td>
  </tr>
- 
+  <tr>
+ 	<td style="font-size:15px">Subj ID</td>
+ 	<td><center style="font-size:15px">FreeSurfer v7</center></td> 
+ 	<td><center style="font-size:15px">CEREBRUM 7T</center></td> 
+ </tr>
+
   <tr>
     <td><b style="font-size:30px"></b>sub_0093</td>
     <td><center><img src="./results/AHEAD/GIF/sub-0093_FreeSurfer.gif" /></center></td>
