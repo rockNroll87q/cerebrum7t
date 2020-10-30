@@ -54,9 +54,8 @@ A light smoothing operation is performed (50 iterations - BrainVoyager) - **no m
  
 </table>
 
-##############################################################################################################################################################################
-
-Full meshes created on testing volumes.
+<hr>
+Full meshes created starting from the `CEREBRUM7T` prediction of different testing volumes.
 
 <table align="center" cellspacing="0" cellpadding="0">
 <!-- <tr>
