@@ -8,7 +8,7 @@ title: CEREBRUM 7T
 
 
 <hr>
-## Glasgow
+# Glasgow
 
 ### Reconstructed meshes
 
@@ -91,7 +91,8 @@ Full meshes created on testing volumes.
     <td><center><img src="./results/Glasgow/meshes/sub-067_ses-001.gif" width="300" /></center></td>
     
  </tr>
- <tr>
+
+ <tr>
  	<td></td> 
  	<td><center><b>`sub-069_ses-001`</b></center></td> 
  	<td><center><b>`sub-076_ses-001`</b></center></td> 
