@@ -60,10 +60,10 @@ Full meshes created starting from the `CEREBRUM7T` prediction of different testi
 <table align="center" cellspacing="0" cellpadding="0">
 
  <tr>
- 	<td><center><b>sub-005_ses-001</b></center></td> 
- 	<td><center><b>sub-013_ses-001</b></center></td> 
- 	<td><center><b>sub-019_ses-001</b></center></td> 
- 	<td><center><b>sub-029_ses-001</b></center></td> 
+ 	<td><center>sub-005_ses-001</center></td> 
+ 	<td><center>sub-013_ses-001</center></td> 
+ 	<td><center>sub-019_ses-001</center></td> 
+ 	<td><center>sub-029_ses-001</center></td> 
  </tr> 
 
  <tr>
@@ -74,10 +74,10 @@ Full meshes created starting from the `CEREBRUM7T` prediction of different testi
  </tr>
      
  <tr>
- 	<td><center><b>sub-042_ses-001</b></center></td> 
- 	<td><center><b>sub-058_ses-001</b></center></td> 
- 	<td><center><b>sub-062_ses-001</b></center></td> 
- 	<td><center><b>sub-067_ses-001</b></center></td> 
+ 	<td><center>sub-042_ses-001</center></td> 
+ 	<td><center>sub-058_ses-001</center></td> 
+ 	<td><center>sub-062_ses-001</center></td> 
+ 	<td><center>sub-067_ses-001</center></td> 
  </tr> 
 
  <tr>
@@ -90,8 +90,8 @@ Full meshes created starting from the `CEREBRUM7T` prediction of different testi
 
  <tr>
  	<td></td> 
- 	<td><center><b>sub-069_ses-001</b></center></td> 
- 	<td><center><b>sub-076_ses-001</b></center></td> 
+ 	<td><center>sub-069_ses-001</center></td> 
+ 	<td><center>sub-076_ses-001</center></td> 
  	<td></td> 
  </tr> 
 
