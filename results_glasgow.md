@@ -55,7 +55,7 @@ A light smoothing operation is performed (50 iterations - BrainVoyager) - **no m
 </table>
 
 <hr>
-Full meshes created starting from the `CEREBRUM7T` prediction of different testing volumes.
+Full meshes created starting from the `CEREBRUM7T` prediction of different testing volumes. For full resolution results, right click on a mesh -> `Open Image in New Tab`.
 
 <table align="center" cellspacing="0" cellpadding="0">
 
