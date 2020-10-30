@@ -71,10 +71,10 @@ Full meshes created starting from the `CEREBRUM7T` prediction of different testi
  </tr> 
 
  <tr>
-    <td><center><img src="./results/Glasgow/meshes/sub-005_ses-001.gif" width="300" /></center></td>
-    <td><center><img src="./results/Glasgow/meshes/sub-013_ses-001.gif" width="300" /></center></td>
-    <td><center><img src="./results/Glasgow/meshes/sub-019_ses-001.gif" width="300" /></center></td>
-    <td><center><img src="./results/Glasgow/meshes/sub-029_ses-001.gif" width="300" /></center></td>
+    <td><center><img src="./results/Glasgow/meshes/sub-005_ses-001.gif" width="200" /></center></td>
+    <td><center><img src="./results/Glasgow/meshes/sub-013_ses-001.gif" width="200" /></center></td>
+    <td><center><img src="./results/Glasgow/meshes/sub-019_ses-001.gif" width="200" /></center></td>
+    <td><center><img src="./results/Glasgow/meshes/sub-029_ses-001.gif" width="200" /></center></td>
     
  <tr>
  	<td><center><b>`sub-042_ses-001`</b></center></td> 
@@ -84,10 +84,10 @@ Full meshes created starting from the `CEREBRUM7T` prediction of different testi
  </tr> 
 
  <tr>
-    <td><center><img src="./results/Glasgow/meshes/sub-042_ses-001.gif" width="300" /></center></td>
-    <td><center><img src="./results/Glasgow/meshes/sub-058_ses-001.gif" width="300" /></center></td>
-    <td><center><img src="./results/Glasgow/meshes/sub-062_ses-001.gif" width="300" /></center></td>
-    <td><center><img src="./results/Glasgow/meshes/sub-067_ses-001.gif" width="300" /></center></td>
+    <td><center><img src="./results/Glasgow/meshes/sub-042_ses-001.gif" width="200" /></center></td>
+    <td><center><img src="./results/Glasgow/meshes/sub-058_ses-001.gif" width="200" /></center></td>
+    <td><center><img src="./results/Glasgow/meshes/sub-062_ses-001.gif" width="200" /></center></td>
+    <td><center><img src="./results/Glasgow/meshes/sub-067_ses-001.gif" width="200" /></center></td>
     
  </tr>
 
@@ -100,8 +100,8 @@ Full meshes created starting from the `CEREBRUM7T` prediction of different testi
 
  <tr>
     <td></td>
-    <td><center><img src="./results/Glasgow/meshes/sub-069_ses-001.gif" width="300" /></center></td>
-    <td><center><img src="./results/Glasgow/meshes/sub-076_ses-001.gif" width="300" /></center></td>
+    <td><center><img src="./results/Glasgow/meshes/sub-069_ses-001.gif" width="200" /></center></td>
+    <td><center><img src="./results/Glasgow/meshes/sub-076_ses-001.gif" width="200" /></center></td>
     <td></td>
     
  </tr>
