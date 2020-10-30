@@ -24,8 +24,8 @@ A light smoothing operation is performed (50 iterations - BrainVoyager) - **no m
  	<td><center><b style="font-size:20px">CEREBRUM 7T</b></center></td> 
  </tr>-->
  <tr>
- 	<td><center><b>Grey matter</b></center></td> 
- 	<td><center><b>White matter</b></center></td> 
+ 	<td><center>Grey matter</center></td> 
+ 	<td><center>White matter</center></td> 
  </tr> 
 
  <tr>
@@ -34,8 +34,8 @@ A light smoothing operation is performed (50 iterations - BrainVoyager) - **no m
  </tr>
 
  <tr>
- 	<td><center><b>Basal ganglia</b></center></td> 
- 	<td><center><b>Ventricles</b></center></td> 
+ 	<td><center>Basal ganglia</center></td> 
+ 	<td><center>Ventricles</center></td> 
  </tr> 
 
  <tr>
@@ -43,8 +43,8 @@ A light smoothing operation is performed (50 iterations - BrainVoyager) - **no m
     <td><center><img src="./results/Glasgow/meshes/sub-055_ses-003_VEN.gif" width="500" />  </center></td>
  </tr>
  <tr>
- 	<td><center><b>Brainstem</b></center></td> 
- 	<td><center><b>Cerebellum</b></center></td> 
+ 	<td><center>Brainstem</center></td> 
+ 	<td><center>Cerebellum</center></td> 
  </tr> 
  
   <tr>
