@@ -26,7 +26,7 @@ Furthermore, to allow replicability and encourage extensions, we release the cod
 <img src="https://media.giphy.com/media/3o7btQ0NH6Kl8CxCfK/giphy.gif" height="300" />  
 </p> -->
 
-Please visit the <a href="https://rocknroll87q.github.io/cerebrum7t/results">results page</a>.
+In result pages, there are results of our method with data from two different sites and settings: - <a href="https://rocknroll87q.github.io/cerebrum7t/results_glasgow">Pag. 1</a> - training and testing on Glasgow data and - <a href="https://rocknroll87q.github.io/cerebrum7t/results_ahead">Pag. 2</a> - fine tuning experiment on AHEAD data.
 
 
 <hr>
