@@ -58,16 +58,12 @@ A light smoothing operation is performed (50 iterations - BrainVoyager) - **no m
 Full meshes created starting from the `CEREBRUM7T` prediction of different testing volumes.
 
 <table align="center" cellspacing="0" cellpadding="0">
-<!-- <tr>
- 	<td><b style="font-size:20px">Subject</b></td>
- 	<td><center><b style="font-size:20px">FreeSurfer v7</b></center></td> 
- 	<td><center><b style="font-size:20px">CEREBRUM 7T</b></center></td> 
- </tr>-->
+
  <tr>
- 	<td><center><b>`sub-005_ses-001`</b></center></td> 
- 	<td><center><b>`sub-013_ses-001`</b></center></td> 
- 	<td><center><b>`sub-019_ses-001`</b></center></td> 
- 	<td><center><b>`sub-029_ses-001`</b></center></td> 
+ 	<td><center><b>sub-005_ses-001</b></center></td> 
+ 	<td><center><b>sub-013_ses-001</b></center></td> 
+ 	<td><center><b>sub-019_ses-001</b></center></td> 
+ 	<td><center><b>sub-029_ses-001</b></center></td> 
  </tr> 
 
  <tr>
@@ -75,12 +71,13 @@ Full meshes created starting from the `CEREBRUM7T` prediction of different testi
     <td><center><img src="./results/Glasgow/meshes/sub-013_ses-001.gif" width="200" /></center></td>
     <td><center><img src="./results/Glasgow/meshes/sub-019_ses-001.gif" width="200" /></center></td>
     <td><center><img src="./results/Glasgow/meshes/sub-029_ses-001.gif" width="200" /></center></td>
-    
+ </tr>
+     
  <tr>
- 	<td><center><b>`sub-042_ses-001`</b></center></td> 
- 	<td><center><b>`sub-058_ses-001`</b></center></td> 
- 	<td><center><b>`sub-062_ses-001`</b></center></td> 
- 	<td><center><b>`sub-067_ses-001`</b></center></td> 
+ 	<td><center><b>sub-042_ses-001</b></center></td> 
+ 	<td><center><b>sub-058_ses-001</b></center></td> 
+ 	<td><center><b>sub-062_ses-001</b></center></td> 
+ 	<td><center><b>sub-067_ses-001</b></center></td> 
  </tr> 
 
  <tr>
@@ -93,8 +90,8 @@ Full meshes created starting from the `CEREBRUM7T` prediction of different testi
 
  <tr>
  	<td></td> 
- 	<td><center><b>`sub-069_ses-001`</b></center></td> 
- 	<td><center><b>`sub-076_ses-001`</b></center></td> 
+ 	<td><center><b>sub-069_ses-001</b></center></td> 
+ 	<td><center><b>sub-076_ses-001</b></center></td> 
  	<td></td> 
  </tr> 
 
@@ -108,7 +105,7 @@ Full meshes created starting from the `CEREBRUM7T` prediction of different testi
 
 </table>
 
-
+<hr>
 ### Probability maps
 
 <center><img src="./results/Glasgow/prob_maps.png"/></center>
