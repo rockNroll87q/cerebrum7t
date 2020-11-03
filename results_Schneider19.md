@@ -10,7 +10,7 @@ title: CEREBRUM 7T
 
 
 In this experiment, we tried to push the limit of our method in this very challenging scenario. 
-Using the dataset below, we fine tune the model trained on Glasgow data to replicate the manual segmentations provided.
+Using the dataset below, we fine tuned the model (trained on Glasgow data) to replicate the manual segmentations provided by:
 
 ~~~
 Marian Schneider, Faruk Omer Gulban, & Rainer Goebel. (2019).
@@ -19,23 +19,23 @@ Data set for sub-millimetre MRI tissue class segmentation (Version v1.0.0)
 http://doi.org/10.5281/zenodo.3401388
 ~~~
 
-The dataset has excellent manual segmentations, but only for 4 volumes of the `mp2rage` sequence.
-We exploit cross-validation using 3 volumes for training and 1 for testing.
-Since the method needs a substantial training set, we applied a strong augmentation procedure, concatenating different strategies of volume manipulation: like translation, rotation, and morphing. 
-We then created 30 volumes for each training sample (for a total of 90). 
-Due to the GPU memory limitations, we had to suppress the `sagittal sinus` label.
-To easier the task of our method, we applied a brain mask to the volume, cropping at outside of the the skull.
+The dataset has excellent manual segmentations, but only for 4 volumes of the `mp2rage` sequence (with the `mprage` sequence excluded for the moment).
+We exploited a cross-validation strategy, using 3 volumes for training and 1 for testing.
+Since the method needs a substantial training set, we applied a strong augmentation procedure, concatenating different volume manipulation strategies: translation, rotation, and morphing. 
+Doing so, we created 30 volumes for each training sample (for a total of 90). 
+Unfortunately, due to GPU memory limitations, we had to suppress the `sagittal sinus` label.
+To easier the task, we applied a brain mask to the volume, cropping outside the skull.
 
-Results show that, with only 3 volumes for fine-tuning, if the predicted labels are very accurate, and the model provide great flexibility.
-To analyse these results, we need to distinguish between two different scenarios. 
+Results show that, with only 3 volumes for fine-tuning, if the predicted labels are very accurate, the model provides great flexibility.
+To analyse results, we need to distinguish them into two different groups.
 In the first, we have the same classes as before, like GM, WM, and ventricles, or a combination of previous classes, like CSF or subcortical, which is a combination of basal ganglia, brainstem, and cerebellum.
-On these classes, the model takes advantage of the previous learning (on Glasgow data) and simply transfer/applies the knowledge on the new dataset.
-In the second scenario, on totally new classes, like vessels, the model has not a prior-knowledge and the segmentation results are lower.
-This was expected and results confirmed our hypothesis.
+On these classes, the model takes advantage of the previous learning (on Glasgow data) and simply transfers/applies the knowledge on the new dataset, leading to very good results.
+In the second scenario, on classes never seen before, like vessels, the model has not a prior-knowledge and the segmentation results are qualitatively lower.
+This was expected and results confirmed our original hypothesis.
 Also here our method produces smooth segmentation masks.
 
-In general, these results are very important because show that it is possible to deal with one of the main limitation of deep learning: the need for a big dataset.
-However, it is pretty straightforward to say that in this scenario, more affidabile strategies can be applied, like decomposing the volumes in slices and apply a slice-based method. 
+In general, these results are very important because they directly tackle one of the main limitation of deep learning: the need for a big dataset.
+However, it is pretty straightforward to say that in this scenario, safer strategies can be applied, like decomposing the volumes in slices and apply a slice-based method. 
 
 For further inspections, yon can download the segmentation masks for both manual and our method [here](https://github.com/rockNroll87q/cerebrum7t/tree/gh-pages/results/Schneider19/seg_labels).
 
@@ -51,8 +51,8 @@ For further inspections, yon can download the segmentation masks for both manual
  
    <tr>
     <td><b style="font-size:30px"></b>sub-019 (WM only)</td>
-    <td><center><img src="./results/Schneider19/meshes/sub-019_uniCut_defaced_gt_white_matter.gif" /></center></td>
-    <td><center><img src="./results/Schneider19/meshes/sub-019_uniCut_defaced_predicted_volume_white_matter.gif"  />  </center></td>
+    <td><center><img src="./results/Schneider19/meshes/sub-019_uniCut_defaced_gt_white_matter.gif" width="400" /></center></td>
+    <td><center><img src="./results/Schneider19/meshes/sub-019_uniCut_defaced_predicted_volume_white_matter.gif" width="400" />  </center></td>
  </tr>
  
 
