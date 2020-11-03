@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <a href="https://rocknroll87q.github.io/cerebrum7t/" target="_blank">CEREBRUM 7T</a>
+title: <a href="https://rocknroll87q.github.io/cerebrum7t/">CEREBRUM 7T</a>
 ---
 
 [<-- main page](https://rocknroll87q.github.io/cerebrum7t/)
