@@ -8,7 +8,6 @@ title: CEREBRUM 7T
 <hr>
 # Schneider et al. 19: a fine tuning experiment on manual segmentation
 
-
 In this experiment, we tried to push the limit of our method in this very challenging scenario. 
 Using the dataset below, we fine tuned the model (trained on Glasgow data) to replicate the manual segmentations provided by:
 
