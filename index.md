@@ -70,7 +70,7 @@ We also push the limit of our method on a very challenging scenario at - <a href
 <hr>
 # Usage
 
-Visit the relative [page](https://rocknroll87q.github.io/cerebrum7t/using_cerebrum7t/) to know how to use `CEREBRUM-7T` from source code, docker, or singularity.
+Visit the relative [page](https://rocknroll87q.github.io/cerebrum7t/using_cerebrum7t/) to learn how to use `CEREBRUM-7T` from source code, docker, or singularity.
 
 
 <hr>
