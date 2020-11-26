@@ -7,16 +7,15 @@
 <hr>
 # Abstract
 
-Ultra high field MRI enables sub-millimetre resolution imaging of human brain, allowing to disentangle complex functional circuits across different cortical depths.
-The capability of using these innovative scanners at 7 Tesla (7T) poses new challenges, as for example those related to the current lack of standardised acquisition protocols, and of automatised pipelines for image analysis.
-Segmentation, meant as the partition of MR brain images in multiple anatomical classes, is an essential step in many functional and structural neuroimaging studies.
-In this work, we design and test `CEREBRUM-7T`, an optimised end-to-end CNN architecture, that allows to segment a whole 7T T1w MRI brain volume at once, without the need of partitioning it into 2D or 3D tiles.
-Despite deep learning (DL) methods are recently starting to emerge in 3T literature, to the best of our knowledge, `CEREBRUM-7T` is the first example of DL architecture directly applied on 7T data with the purpose of segmentation.
-Training is performed in a weakly supervised fashion, since it exploits a ground-truth (GT) not exempt from errors. 
-The generated model is able to produce accurate multi-structure segmentation masks on six different classes, in only few seconds.
-In the experimental part, a combination of objective numerical evaluations, and subjective analysis 
-carried out by experienced neuroimaging users, confirms that the proposed solution outperforms the GT it was trained on in segmentation accuracy, and it is suitable for many neuroimaging studies.
-Furthermore, to allow replicability and encourage extensions, we release the code, 7T data (145 volumes), and other materials, including the GT and the survey.
+Ultra high-field MRI enables sub-millimetre resolution imaging of the human brain, allowing for the resolution of functional circuits at the meso-scale of cortical layers.
+An essential step in many functional and structural neuroimaging studies is segmentation, the operation of partitioning the MR brain images to delineate anatomical structures.
+Despite recent efforts in brain imaging analysis, the literature lacks of accurate and fast methods for segmenting brain MRI at 7Tesla.
+We here present `CEREBRUM-7T`, an optimised end-to-end Convolutional Neural Network (CNN) architecture, that allows for the segmentation of a whole 7T T1w MRI brain volume at once, thus overcoming the drawbacks of partitioning the volume into 2D or 3D tiles. 
+Training is performed in a weakly supervised fashion, exploiting labelling with errors obtained with automatic state-of-the-art methods. 
+The trained model is able to produce accurate multi-structure segmentation masks on six different classes in only a few seconds. 
+In the experimental part, a combination of objective numerical evaluations and subjective analysis carried out by experienced neuroimaging users, confirms that the proposed solution outperforms the training labels it was trained on in segmentation accuracy, and is suitable for neuroimaging studies, such as layer fMRI studies. 
+Taking advantage of a fine-tuning operation on a reduced set of volumes, we also show how it is possible to efficiently and effectively apply `CEREBRUM-7T` to data from different sites.
+Furthermore, to allow replicability and encourage extensions, we release the code, 7T data (142 volumes), and other materials, including the training labels and the survey.
 
 <hr>
 # Results
