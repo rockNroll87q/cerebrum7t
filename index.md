@@ -75,7 +75,7 @@ Visit the relative [page](https://rocknroll87q.github.io/cerebrum7t/usage) to le
 <hr>
 # Data
 
-Visit the relative [page](https://rocknroll87q.github.io/cerebrum7t/usage) for all the information needed about the data.
+Visit the relative [page](https://rocknroll87q.github.io/cerebrum7t/data) for all the information needed about the data.
 
 
 <hr>
