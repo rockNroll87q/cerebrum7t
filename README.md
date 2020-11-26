@@ -1,5 +1,7 @@
 # <p align="center">CEREBRUM-7T</p>
 
+[![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/4997)
+
 Visit the [Project page](https://rocknroll87q.github.io/cerebrum7t/).
 
 ## Description
