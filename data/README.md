@@ -14,19 +14,19 @@ The data should be organised as follows, for the subject N session S:
 BIDS/
 ├── sub-00N
 │   ├── anat
-│   │   ├── sub-00N_ses-00S_INV1.json			  -> INV1 descriptors
-│   │   ├── sub-00N_ses-00S_INV1.nii.gz			-> INV1 volume
-│   │   ├── sub-00N_ses-00S_INV2.json			  -> INV2 descriptors
-│   │   ├── sub-00N_ses-00S_INV2.nii.gz			-> INV1 volume
-│   │   ├── sub-00N_ses-00S_T1w.json			   -> MP2RAGE descriptors
-│   │   ├── sub-00N_ses-00S_T1w.nii.gz			 -> MP2RAGE volume
+│   │   ├── sub-00N_ses-00S_INV1.json	       -> INV1 descriptors
+│   │   ├── sub-00N_ses-00S_INV1.nii.gz      -> INV1 volume
+│   │   ├── sub-00N_ses-00S_INV2.json        -> INV2 descriptors
+│   │   ├── sub-00N_ses-00S_INV2.nii.gz      -> INV1 volume
+│   │   ├── sub-00N_ses-00S_T1w.json         -> MP2RAGE descriptors
+│   │   ├── sub-00N_ses-00S_T1w.nii.gz       -> MP2RAGE volume
 │   └── seg
-│       ├── sub-00N_ses-00S_CEREBRUM7T.nii.gz		    -> segmentation by our method (only for testing volumes)
-│       ├── sub-00N_ses-00S_Fracasso16.nii.gz		    -> segmentation by Fracasso (2016)
-│       ├── sub-00N_ses-00S_FreeSurfer_v6.nii.gz		 -> segmentation by FreeSurfer v06
-│       ├── sub-00N_ses-00S_FreeSurfer_v7.nii.gz		 -> segmentation by FreeSurfer v07
-│       ├── sub-00N_ses-00S_nighres.nii.gz		 	     -> segmentation by Huntenburg (2018)
-│       ├── sub-00N_ses-00S_training_labels.nii.gz	-> segmentation mask used for training 
+│       ├── sub-00N_ses-00S_CEREBRUM7T.nii.gz      -> segmentation by our method (only for testing volumes)
+│       ├── sub-00N_ses-00S_Fracasso16.nii.gz		   -> segmentation by Fracasso (2016)
+│       ├── sub-00N_ses-00S_FreeSurfer_v6.nii.gz	 -> segmentation by FreeSurfer v06
+│       ├── sub-00N_ses-00S_FreeSurfer_v7.nii.gz	 -> segmentation by FreeSurfer v07
+│       ├── sub-00N_ses-00S_nighres.nii.gz		     -> segmentation by Huntenburg (2018)
+│       ├── sub-00N_ses-00S_training_labels.nii.gz -> segmentation mask used for training 
 ```
 
 Which is the same structure you can find in the EBRAINS release.
