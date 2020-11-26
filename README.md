@@ -17,20 +17,11 @@ Classes are: gray matter (GM), white matter (WM), cerebrospinal fluid (CSF), ven
 
 ## Usage
 
+Visit the relative [page](https://rocknroll87q.github.io/cerebrum7t/using_cerebrum7t/) to know how to use `CEREBRUM-7T` from source code, docker, or singularity.
+
 ## Data
 
 At this link you can download the data; you need an EBRAINS account, that you can get [here](https://ebrains.eu/register/). 
-
-### Requirements
-
-The code needs some dependencies that you can find in `requirements.txt`. Download the repo and run:
-
-```
-pip install -r requirements.txt
-```
-
-to install all the dependencies. 
-<i><b>N.B.</b> `tensorflow-gpu` not needed for testing, but strongly suggested for training.</i>
 
 ## Authors
 
