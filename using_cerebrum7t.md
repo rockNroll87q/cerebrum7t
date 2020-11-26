@@ -6,12 +6,15 @@ title: <a href="https://rocknroll87q.github.io/cerebrum7t/">CEREBRUM 7T</a>
 [<-- main page](https://rocknroll87q.github.io/cerebrum7t/)
 
 <hr>
-# From src: virtual environment
+# From source
 
 Please note that these instructions don't require you to be a super user. Everything can be done in user mode, i.e., you can setup this in a server. 
 The only requirement is the you need the right version of CUDA (10.0) that match TensorFlow 1.14.
 
-### Setup
+If you don't want to use a virtual environment, simply run `pip install -r requirements.txt` to install all the dependencies. 
+<b>N.B.</b> `tensorflow-gpu` is not needed for testing, but strongly suggested for training.
+
+### Create virtual environment
 
 To create a virtual environment, go to your project’s directory and run venv:
 
@@ -33,92 +36,31 @@ Enjoy!
 
 ### Training
 
-~~~
-usage: training.py [-h] [--model {Input,ThreeLevelsConvUNetStridedConv}]
-                   [--learning_rate LEARNING_RATE] [--batch_size BATCH_SIZE]
-                   [--epochs EPOCHS] [--n_filters N_FILTERS]
-                   [--loss_funct {categorical_crossentropy,dice_coef_multilabel,dice_coef_multilabel_metric,tversky_loss,jaccard_metric,dice_coef_metric,dice_coef_loss}]
-                   [--encoder_act_funct {relu,elu}]
-                   [--decoder_act_funct {relu,elu}] [--dropout]
-                   [--weight_class] [--anat_ide ANAT_IDE]
-                   [--GT_to_predict GT_TO_PREDICT] [--augmentation]
-                   [--augm_factor AUGM_FACTOR]
+Here the command used in the manuscript.
 
-Classifier training
-
-optional arguments:
-  -h, --help            show this help message and exit
-  --model {Input,ThreeLevelsConvUNetStridedConv}
-                        Model name
-  --learning_rate LEARNING_RATE
-                        learning rate (float)
-  --batch_size BATCH_SIZE
-                        batch_size (int)
-  --epochs EPOCHS       epochs (int)
-  --n_filters N_FILTERS
-                        number of filters for the first layer (double each
-                        layer)
-  --loss_funct {categorical_crossentropy,dice_coef_multilabel,dice_coef_multilabel_metric,tversky_loss,jaccard_metric,dice_coef_metric,dice_coef_loss}
-                        loss function
-  --encoder_act_funct {relu,elu}
-                        Activation function encoder.
-  --decoder_act_funct {relu,elu}
-                        Activation function encoder.
-  --dropout             use dropout (add flag to use it)
-  --weight_class        weight the class numerosity (add flag to use it)
-  --anat_ide ANAT_IDE   T1w identifier (str)
-  --GT_to_predict GT_TO_PREDICT
-                        GT identifier (str)
-  --augmentation        use augmentation (add flag to use it)
-  --augm_factor AUGM_FACTOR
-                        factor of: how many times the training set use for
-                        augmentation
 ~~~
+$ python3 ./training.py --learning_rate 0.0005 --epochs 100 --GT_to_predict 'training_labels' --anat_ide 'T1w'  --augmentation --augm_factor 10 --dropout
+~~~
+
+For an extended description of every option, please run `python3 ./training.py --help`
+
 ### Fine-tuning
 
-~~~
-usage: fine_tuning.py [-h] [--training_name TRAINING_NAME]
-                      [--learning_rate LEARNING_RATE]
-                      [--lr_fineTuning LR_FINETUNING] [--epochs EPOCHS]
-                      [--dropout] [--weight_class]
-                      [--loss_funct {categorical_crossentropy,dice_coef_multilabel,dice_coef_multilabel_metric,tversky_loss,jaccard_metric,dice_coef_metric,dice_coef_loss}]
-                      [--last_layer {1,2,3,4,5,6,7,8,9,10,11,12,13,14}]
-                      [--anat_ide ANAT_IDE] [--GT_to_predict GT_TO_PREDICT]
+Here the command used to obtained for [AHEAD results](https://rocknroll87q.github.io/cerebrum7t/results_ahead):
 
-Classifier training
-
-optional arguments:
-  -h, --help            show this help message and exit
-  --training_name TRAINING_NAME
-                        Starting model
-  --learning_rate LEARNING_RATE
-                        learning rate (float)
-  --lr_fineTuning LR_FINETUNING
-                        learning rate (float)
-  --epochs EPOCHS       epochs (int)
-  --dropout             use dropout (add flag to use it)
-  --weight_class        weight the class numerosity (add flag to use it)
-  --loss_funct {categorical_crossentropy,dice_coef_multilabel,dice_coef_multilabel_metric,tversky_loss,jaccard_metric,dice_coef_metric,dice_coef_loss}
-                        loss function
-  --last_layer {1,2,3,4,5,6,7,8,9,10,11,12,13,14}
-                        last layer to freeze: goes from 1 (change only output)
-                        to 14 (change everything) (int)
-  --anat_ide ANAT_IDE   T1w identifier (str)
-  --GT_to_predict GT_TO_PREDICT
-                        GT identifier (str)
 ~~~
+$ python3 ./fine_tuning.py --learning_rate 0.0001 --GT_to_predict 'FS7_aseg_7classes' --anat_ide 'T1w_cut' --weight_class --dropout --last_layer 3 --loss_funct 'dice_coef_multilabel' --lr_fineTuning 0.0005
+~~~
+
+For an extended description of every option, please run `python3 ./fine-tuning.py --help`
 
 ### Testing
-~~~
-usage: testing.py [-h] --training_name TRAINING_NAME
 
-Classifier testing on BIDS
-
-optional arguments:
-  -h, --help            show this help message and exit
-  --training_name TRAINING_NAME
-                        Starting model
 ~~~
+$ python testing.py [-h] --training_name TRAINING_NAME
+~~~
+
+For an extended description of every option, please run `python3 ./testing.py --help`
 
 <hr>
 # Docker
