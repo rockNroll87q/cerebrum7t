@@ -3,55 +3,39 @@
 
 ## Directory Structure
 
-In our work, we used out-of-the-scanner data. The only pre-process the data went through was the conversion from DICOM to the NIfTI format, carried out using [dcm2niix](https://github.com/rordenlab/dcm2niix).
+In our work, we used plain reconstructed data. 
+The only pre-process applied to the data is the conversion from DICOM to the NIfTI format, carried out using [dcm2niix](https://github.com/rordenlab/dcm2niix).
+All the volumes are in NIfTI format (`.nii` or `.nii.gz`). 
+We used [Nipy's NiBabel](https://nipy.org/nibabel/) to handle such MR Images.
 
-For the following reason, in order to run the code found in this repo "off-the-shelf", data must stored in NIfTI files (`.nii` or `.nii.gz`). We used [Nipy's NiBabel](https://nipy.org/nibabel/) to handle such MR Images.
-
-Applying changes in these regards (e.g., to use other file formats, or handle data exploiting other python libraries) it's pretty straight forward, as the aforementioned library is used for loading and saving operations.
-
-The data in this folder should be organised as follows:
+The data should be organised as follows, for the subject N session S:
 
 ```
-data/
-├── sub-001
-│   ├── anat
-│   │   ├── sub-001_ses-001_INV1.json
-│   │   ├── sub-001_ses-001_INV1.nii.gz
-│   │   ├── sub-001_ses-001_INV2.json
-│   │   ├── sub-001_ses-001_INV2.nii.gz
-│   │   ├── sub-001_ses-001_T1w.json
-│   │   ├── sub-001_ses-001_T1w.nii.gz
-│   └── seg
-│       ├── sub-001_ses-001_Fracasso16-mc.nii.gz
-│       ├── sub-001_ses-001_Fracasso16.nii.gz
-│       ├── sub-001_ses-001_FS6.nii.gz
-│       ├── sub-001_ses-001_FS7.nii.gz
-├── sub-002
-│   ├── anat
-│   │   ├── sub-002_ses-001_INV1.json
-│   │   ├── sub-002_ses-001_INV1.nii.gz
-│   │   ├── sub-002_ses-001_INV2.json
-│   │   ├── sub-002_ses-001_INV2.nii.gz
-│   │   ├── sub-002_ses-001_T1w.json
-│   │   └── sub-002_ses-001_T1w.nii.gz
-│   └── seg
-│       ├── sub-002_ses-001_Fracasso16-mc.nii.gz
-│       ├── sub-002_ses-001_Fracasso16.nii.gz
-│       ├── sub-002_ses-001_FS6.nii.gz
-│       └── sub-002_ses-001_FS7.nii.gz
-├── sub-003
-│   ├── anat
-│   │   ├── sub-003_ses-001_INV1.json
-│   │   ├── sub-003_ses-001_INV1.nii.gz
-
-...
- 
+BIDS/
+├── sub-00N
+│   ├── anat
+│   │   ├── sub-00N_ses-00S_INV1.json			  -> INV1 descriptors
+│   │   ├── sub-00N_ses-00S_INV1.nii.gz			-> INV1 volume
+│   │   ├── sub-00N_ses-00S_INV2.json			  -> INV2 descriptors
+│   │   ├── sub-00N_ses-00S_INV2.nii.gz			-> INV1 volume
+│   │   ├── sub-00N_ses-00S_T1w.json			   -> MP2RAGE descriptors
+│   │   ├── sub-00N_ses-00S_T1w.nii.gz			 -> MP2RAGE volume
+│   └── seg
+│       ├── sub-00N_ses-00S_CEREBRUM7T.nii.gz		    -> segmentation by our method (only for testing volumes)
+│       ├── sub-00N_ses-00S_Fracasso16.nii.gz		    -> segmentation by Fracasso (2016)
+│       ├── sub-00N_ses-00S_FreeSurfer_v6.nii.gz		 -> segmentation by FreeSurfer v06
+│       ├── sub-00N_ses-00S_FreeSurfer_v7.nii.gz		 -> segmentation by FreeSurfer v07
+│       ├── sub-00N_ses-00S_nighres.nii.gz		 	     -> segmentation by Huntenburg (2018)
+│       ├── sub-00N_ses-00S_training_labels.nii.gz	-> segmentation mask used for training 
 ```
 
+Which is the same structure you can find in the EBRAINS release.
+Using a different data structure is possible, but the code needs to be slightly modified.
 
-## Publicly Available Test Data
 
-Along with the publicly available data, a 6-class segmentation mask is provided. The segmented classes (and the color code used in the notebooks and in the paper) are:
+## Tissue classes
+
+Along with the publicly available data, 6-class (+ background) segmentation masks are provided. The segmented classes (and the color code used in the notebooks and in the paper) are:
 
 | Class ID | Substructure/Tissue |    Color    |
 |:--------:|:-------------------:|:-----------:|
@@ -64,4 +48,4 @@ Along with the publicly available data, a 6-class segmentation mask is provided.
 |     6    |      Brainstem      |     Pink    |
 
 
-Such ground truth was obtained starting from FreeSurfer's `recon-all` procedure, merging the classes such that only the ones [used in the MICCAI MRBrainS13 and MRBrainS18 challenges](https://mrbrains13.isi.uu.nl/data/) were kept (except the less numerous classes - "White matter lesions", "Infarction" and "Other" - not directly obtainable from the atlas-based segmentation, or for which we considered the latter to be too little reliable).
+Such ground truth was obtained using ad-hoc procedure (see the manuscript) using the classes [used in the MICCAI MRBrainS13 and MRBrainS18 challenges](https://mrbrains13.isi.uu.nl/data/).
