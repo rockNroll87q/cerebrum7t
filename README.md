@@ -17,7 +17,7 @@ Classes are: gray matter (GM), white matter (WM), cerebrospinal fluid (CSF), ven
 
 ## Usage
 
-Visit the relative [page](https://rocknroll87q.github.io/cerebrum7t/using_cerebrum7t/) to know how to use `CEREBRUM-7T` from source code, docker, or singularity.
+Visit the relative [page](https://rocknroll87q.github.io/cerebrum7t/using_cerebrum7t/) to learn how to use `CEREBRUM-7T` from source code, docker, or singularity.
 
 ## Data
 
