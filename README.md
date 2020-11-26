@@ -21,7 +21,7 @@ Visit the relative [page](https://rocknroll87q.github.io/cerebrum7t/usage) to le
 
 ## Data
 
-At this link you can download the data; you need an EBRAINS account, that you can get [here](https://ebrains.eu/register/). 
+Visit the relative [page](https://rocknroll87q.github.io/cerebrum7t/data) for all the information needed about the data.
 
 ## Authors
 
