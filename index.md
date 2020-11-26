@@ -72,6 +72,11 @@ We also push the limit of our method on a very challenging scenario at - <a href
 
 Visit the relative [page](https://rocknroll87q.github.io/cerebrum7t/usage) to learn how to use `CEREBRUM-7T` from source code, docker, or singularity.
 
+<hr>
+# Data
+
+Visit the relative [page](https://rocknroll87q.github.io/cerebrum7t/usage) for all the information needed about the data.
+
 
 <hr>
 # Citation
