@@ -9,13 +9,13 @@
 
 Ultra high-field MRI enables sub-millimetre resolution imaging of the human brain, allowing for the resolution of functional circuits at the meso-scale of cortical layers.
 An essential step in many functional and structural neuroimaging studies is segmentation, the operation of partitioning the MR brain images to delineate anatomical structures.
-Despite recent efforts in brain imaging analysis, the literature lacks of accurate and fast methods for segmenting brain MRI at 7Tesla.
+Despite recent efforts in brain imaging analysis, the literature lacks of accurate and fast methods for segmenting 7 Tesla (7T) brain MRI.
 We here present `CEREBRUM-7T`, an optimised end-to-end Convolutional Neural Network (CNN) architecture, that allows for the segmentation of a whole 7T T1w MRI brain volume at once, thus overcoming the drawbacks of partitioning the volume into 2D or 3D tiles. 
 Training is performed in a weakly supervised fashion, exploiting labelling with errors obtained with automatic state-of-the-art methods. 
 The trained model is able to produce accurate multi-structure segmentation masks on six different classes in only a few seconds. 
 In the experimental part, a combination of objective numerical evaluations and subjective analysis carried out by experienced neuroimaging users, confirms that the proposed solution outperforms the training labels it was trained on in segmentation accuracy, and is suitable for neuroimaging studies, such as layer fMRI studies. 
 Taking advantage of a fine-tuning operation on a reduced set of volumes, we also show how it is possible to efficiently and effectively apply `CEREBRUM-7T` to data from different sites.
-Furthermore, to allow replicability and encourage extensions, we release the code, 7T data (142 volumes), and other materials, including the training labels and the survey.
+Furthermore, to allow replicability and encourage extensions, we release the code, 7T data (142 volumes), and other materials, including the training labels and the Turing test.
 
 <hr>
 # Results
@@ -76,6 +76,14 @@ Visit the relative [page](https://rocknroll87q.github.io/cerebrum7t/usage) to le
 
 Visit the relative [page](https://rocknroll87q.github.io/cerebrum7t/data) for all the information needed about the data.
 
+<hr>
+# Turing test
+
+As we discussed in the paper, we designed and implemented a PsychoPy (Peirce et al., 2019) test for neuroscientists to assess the segmentation quality of CEREBRUM-7T comparing our model with manual segmentation and with the GT. In the figure below, we show the interface we presented the participants with.
+
+<p align="center"><img src="https://github.com/rockNroll87q/segmentation_survey/blob/master/behavioural.png" alt="behavioural" height="400"</p>
+
+The source code to replicate the test is made available [here](https://github.com/rockNroll87q/segmentation_survey).
 
 <hr>
 # Citation
