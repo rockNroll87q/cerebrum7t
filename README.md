@@ -5,7 +5,7 @@ Visit the [Project page](https://rocknroll87q.github.io/cerebrum7t/).
 
 ## Description
 
-Implementation of the paper "CEREBRUM-7T: fast and fully-volumetric  brain segmentation of 7 Tesla MR volumes" ([link](https://www.biorxiv.org/content/10.1101/2020.07.07.191536v1.full)).
+Implementation of the paper "CEREBRUM 7T: Fast and Fully-volumetric Brain Segmentation of 7 Tesla MR Volumes" ([link](https://www.biorxiv.org/content/10.1101/2020.07.07.191536v1.full)).
 
 <p align="center">
 <img src="https://github.com/rockNroll87q/cerebrum7t/blob/master/misc/graphical_abstract.png" width="700" />  
