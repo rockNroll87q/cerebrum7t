@@ -82,7 +82,8 @@ Visit the relative [page](https://rocknroll87q.github.io/cerebrum7t/data) for al
 As we discussed in the paper, we designed and implemented a PsychoPy (Peirce et al., 2019) test for neuroscientists to assess the segmentation quality of CEREBRUM-7T comparing our model with manual segmentation and with the GT. In the figure below, we show the interface we presented the participants with.
 
 <p align="center">
-<img src="https://github.com/rockNroll87q/segmentation_survey/blob/master/behavioural.png" height="300" />
+<img src="./misc/behavioural.png" width="600" />  
+</p>
 
 The source code to replicate the test is made available [here](https://github.com/rockNroll87q/segmentation_survey).
 
