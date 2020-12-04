@@ -67,7 +67,7 @@ For an extended description of every option, please run `python3 ./testing.py --
 
 These commands assumes that the data is organised as described here ([link](https://github.com/rockNroll87q/cerebrum7t/blob/master/data/README.md)).
 
-Download the last version of `cerebrum7t` with `docker pull rocknroll87q/cerebrum7t` or download the `.tar` from [here](https://cloud.psy.gla.ac.uk/index.php/s/CNZDdvvnjJ4iBx3) (psw: `rocknroll87q/cerebrum7t`).
+Download the last version of `cerebrum7t` with `docker pull rocknroll87q/cerebrum7t:segmentation7T` or download the `.tar` from [here](https://cloud.psy.gla.ac.uk/index.php/s/CNZDdvvnjJ4iBx3) (psw: `rocknroll87q/cerebrum7t`).
 
 ### Training
 
