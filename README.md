@@ -36,13 +36,15 @@ If you find this code useful in your research, please consider citing our paper:
 
 ```
 @article {Svanera2020.07.07.191536,
-	author = {Svanera, Michele and Bontempi, Dennis and Benini, Sergio and Muckli, Lars},
-	title = {CEREBRUM-7T: fast and fully-volumetric brain segmentation of out-of-the-scanner 7T MR volumes},
+	author = {Svanera, Michele and Benini, Sergio and Bontempi, Dennis and Muckli, Lars},
+	title = {CEREBRUM-7T: Fast and Fully-volumetric Brain Segmentation of 7 Tesla MR Volumes},
 	elocation-id = {2020.07.07.191536},
 	year = {2020},
 	doi = {10.1101/2020.07.07.191536},
-	URL = {https://www.biorxiv.org/content/early/2020/07/08/2020.07.07.191536},
-	eprint = {https://www.biorxiv.org/content/early/2020/07/08/2020.07.07.191536.full.pdf},
+	publisher = {Cold Spring Harbor Laboratory},
+	URL = {https://www.biorxiv.org/content/early/2020/12/03/2020.07.07.191536},
+	eprint = {https://www.biorxiv.org/content/early/2020/12/03/2020.07.07.191536.full.pdf},
 	journal = {bioRxiv}
 }
+
 ```
