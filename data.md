@@ -6,7 +6,7 @@ title: <a href="https://rocknroll87q.github.io/cerebrum7t/">CEREBRUM 7T</a>
 [<-- main page](https://rocknroll87q.github.io/cerebrum7t/)
 
 <hr>
-# Data
+# Glasgow 7T Database
 
 You can download the Glasgow data, anatomical and segmentation masks, from the EBRAINS website ([link](https://kg.ebrains.eu/search/instances/Dataset/2b24466d-f1cd-4b66-afa8-d70a6755ebea)). You may need to create an account to access the data.
 
