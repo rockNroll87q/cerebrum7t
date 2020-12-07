@@ -14,7 +14,7 @@ You can download the Glasgow data, anatomical and segmentation masks, from the E
 <hr>
 # Data structure
 
-In our work, we used plain reconstructed data. 
+In our work, we used plain reconstructed data (no pre-processing). 
 The only pre-process applied to the data is the conversion from DICOM to the NIfTI format, carried out using [dcm2niix](https://github.com/rordenlab/dcm2niix).
 All the volumes are in NIfTI format (`.nii` or `.nii.gz`). 
 We used [Nipy's NiBabel](https://nipy.org/nibabel/) to handle such MR Images.
