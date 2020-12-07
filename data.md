@@ -10,6 +10,8 @@ title: <a href="https://rocknroll87q.github.io/cerebrum7t/">CEREBRUM 7T</a>
 
 You can download the Glasgow data, anatomical and segmentation masks, from the EBRAINS website ([link](https://kg.ebrains.eu/search/instances/Dataset/2b24466d-f1cd-4b66-afa8-d70a6755ebea)). You may need to create an account to access the data.
 
+The database consists of 142 anatomical volumes (76 unique subjects) obtained with a MP2RAGE sequence at 0.63 mm3 isotropic resolution, using a 7-Tesla MRI scanner with 32-channel head coil. All volumes were collected, as reconstructed DICOM images, at the Imaging Centre of Excellence (ICE) at the Queen Elizabeth University Hospital, Glasgow (UK). For every volume, we release the  corresponding scans INV1, INV2, and UNI_Images. In addition, we release the automatic segmentations obtained from different methods (see below).
+
 
 <hr>
 # Data structure
