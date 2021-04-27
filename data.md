@@ -8,13 +8,21 @@ title: <a href="https://rocknroll87q.github.io/cerebrum7t/">CEREBRUM 7T</a>
 <hr>
 # Glasgow 7T Database
 
+There are 2 repositories:
+
+1. The full db is available on EBRAINS
+([link](https://kg.ebrains.eu/search/instances/Dataset/2b24466d-f1cd-4b66-afa8-d70a6755ebea)).
+2. A small sample of data, with manual annotations, is available [here](https://openneuro.org/datasets/ds003642/).
+
+<hr>
+
+# Full dataset
 You can download the Glasgow data, anatomical and segmentation masks, from the EBRAINS website ([link](https://kg.ebrains.eu/search/instances/Dataset/2b24466d-f1cd-4b66-afa8-d70a6755ebea)). You may need to create an account to access the data.
 
 The database consists of 142 anatomical volumes (76 unique subjects) obtained with a MP2RAGE sequence at 0.63 mm3 isotropic resolution, using a 7-Tesla MRI scanner with 32-channel head coil. All volumes were collected, as reconstructed DICOM images, at the Imaging Centre of Excellence (ICE) at the Queen Elizabeth University Hospital, Glasgow (UK). For every volume, we release the  corresponding scans INV1, INV2, and UNI_Images. In addition, we release the automatic segmentations obtained from different methods (see below).
 
 
-<hr>
-# Data structure
+### Data structure
 
 In our work, we used plain reconstructed data (no pre-processing). 
 The only pre-process applied to the data is the conversion from DICOM to the NIfTI format, carried out using [dcm2niix](https://github.com/rordenlab/dcm2niix).
@@ -62,3 +70,36 @@ Along with the publicly available data, 6-class (+ background) segmentation mask
 
 
 Such ground truth was obtained using ad-hoc procedure (see the manuscript) using the classes [used in the MICCAI MRBrainS13 and MRBrainS18 challenges](https://mrbrains13.isi.uu.nl/data/).
+
+
+
+
+<hr>
+
+# Manual segmentation
+
+The dataset with manual annotations ([link](https://openneuro.org/datasets/ds003642/)) is composed by 3 subjects, scanned at the Imaging Centre of Excellence (ICE) at the Queen Elizabeth University Hospital, Glasgow (UK).
+For every subject, two folders are provided, containing:
+
+* anat/
+
+	* INV1
+	* INV2
+	* UNI_Images (T1w)
+
+* derivatives/
+
+	* manual annotations of 8 regions of widely interest in neuroscience
+		* early visual cortex (EVC)
+		* high-level visual areas (HVC)
+		* motor cortex (MCX)
+		* cerebellum (CER)
+		* hippocampus (HIP)
+		* early auditory cortex (EAC)
+		* brainstem (BST)
+		* basal ganglia (BGA)
+	* automatic segmentation by FreeSurfer (v6 and v7)
+	* automatic segmentation by Fracasso16
+	* automatic segmentation by our method (CEREBRUM7T) with probability maps (CEREBRUM7T_probMap)
+	* automatic segmentation by nighres
+	* labels used for training our method
