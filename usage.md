@@ -14,6 +14,8 @@ The only requirement is the you need the right version of CUDA (10.0) that match
 If you don't want to use a virtual environment, simply run `pip install -r requirements.txt` to install all the dependencies. 
 <b>N.B.</b> `tensorflow-gpu` is not needed for testing, but strongly suggested for training.
 
+We also suggest to use python3.6 for this.
+
 ### Create virtual environment
 
 To create a virtual environment, go to your project’s directory and run venv:
