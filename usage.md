@@ -6,6 +6,27 @@ title: <a href="https://rocknroll87q.github.io/cerebrum7t/">CEREBRUM 7T</a>
 [<-- main page](https://rocknroll87q.github.io/cerebrum7t/)
 
 <hr>
+# Rationale
+
+Few notes: the tool needs training or fine-tuning in order to be use on other data than Glasgow.
+
+If you have enough data (~50/100 vols), a training is suggested. Otherwise fine-tuning.
+For training, you can choose the shape that you want, for fine-tuning, you need to stay with the shape we used in Glasgow (256, 352, 224).
+
+The main part of the work is to prepare the dataset: the data must have the same dimension i.e., every volume and mask have the same shapes.
+There is more info here: [link](https://github.com/rockNroll87q/cerebrum7t/issues/).
+
+In general, steps are:
+
+1.	Prepare the dataset: collect scans and segmentation masks. Take a look [here](https://rocknroll87q.github.io/cerebrum7t/data) the structure needed for the data.
+2.	Create the inhomogeneity_volume ([code](https://github.com/rockNroll87q/cerebrum7t/blob/master/src/misc/inhomogeneity_volume.py))
+3.	Compute mean and std of the dataset ([code](https://github.com/rockNroll87q/cerebrum7t/blob/master/src/misc/mean_discover_BIDS.py))
+4.	Data augmentation ([link](https://github.com/rockNroll87q/cerebrum7t/blob/master/src/misc/offline_data_augmentation.py)) - optional
+5.	Training!
+
+
+
+<hr>
 # From source
 
 Please note that these instructions don't require you to be a super user. Everything can be done in user mode, i.e., you can setup this in a server. 
