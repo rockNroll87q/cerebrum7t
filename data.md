@@ -103,3 +103,9 @@ For every subject, two folders are provided, containing:
 	* automatic segmentation by our method (CEREBRUM7T) with probability maps (CEREBRUM7T_probMap)
 	* automatic segmentation by nighres
 	* labels used for training our method
+
+	
+<hr>
+# Testing on OpenNeuro data
+
+Note: if you are testing the [trained model](https://github.com/rockNroll87q/cerebrum7t/tree/master/trained_model) on the dataset published on [OpenNeuro](https://openneuro.org/datasets/ds003642/versions/1.1.0), please notice that you need to download the  `mean` and `std` volumes [at this link](https://cloud.psy.gla.ac.uk/index.php/s/efPCRdOB6FCEzrT) (psw: `rocknroll87q/cerebrum7t`).

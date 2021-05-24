@@ -20,7 +20,7 @@ In general, steps are:
 
 1.	Prepare the dataset: collect scans and segmentation masks. Take a look [here](https://rocknroll87q.github.io/cerebrum7t/data) the structure needed for the data.
 2.	Create the inhomogeneity_volume ([code](https://github.com/rockNroll87q/cerebrum7t/blob/master/src/misc/inhomogeneity_volume.py))
-3.	Compute mean and std of the dataset ([code](https://github.com/rockNroll87q/cerebrum7t/blob/master/src/misc/mean_discover_BIDS.py))
+3.	Compute mean and std of the dataset ([code](https://github.com/rockNroll87q/cerebrum7t/blob/master/src/misc/mean_discover_BIDS.py)).
 4.	Data augmentation ([link](https://github.com/rockNroll87q/cerebrum7t/blob/master/src/misc/offline_data_augmentation.py)) - optional
 5.	Training!
 
@@ -195,3 +195,7 @@ singularity exec --nv \
 python /cerebrum7t/src/testing.py --training_name 'training_YYYY-MM-DD_etc'
 ~~~
 
+<hr>
+# Testing on OpenNeuro data
+
+Note: if you are testing the [trained model](https://github.com/rockNroll87q/cerebrum7t/tree/master/trained_model) on the dataset published on [OpenNeuro](https://openneuro.org/datasets/ds003642/versions/1.1.0), please notice that you need to download the  `mean` and `std` volumes [at this link](https://cloud.psy.gla.ac.uk/index.php/s/efPCRdOB6FCEzrT) (psw: `rocknroll87q/cerebrum7t`).
