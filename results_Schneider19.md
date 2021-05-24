@@ -9,7 +9,7 @@ title: <a href="https://rocknroll87q.github.io/cerebrum7t/">CEREBRUM 7T</a>
 # Schneider et al. 19: a fine tuning experiment on manual segmentation
 
 In this experiment, we tried to push the limit of our method in this very challenging scenario. 
-Using the dataset below, we fine tuned the model (trained on Glasgow data) to replicate the manual segmentations provided by:
+Using the [dataset](https://doi.org/10.5281/zenodo.3401388) below, we fine tuned the model (trained on Glasgow data) to replicate the manual segmentations provided by:
 
 ~~~
 Marian Schneider, Faruk Omer Gulban, & Rainer Goebel. (2019).
