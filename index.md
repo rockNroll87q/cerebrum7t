@@ -19,14 +19,17 @@ Furthermore, to allow replicability and encourage extensions, we release the cod
 <hr>
 # Results
 
-<div class="sketchfab-embed-wrapper"> <iframe title="CEREBRUM7T" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="1280" height="720" src="https://sketchfab.com/models/d06ac0deeb9945159404ef06893a02a7/embed?autospin=0&autostart=1"> </iframe> </div>
+Below reconstructed meshes of GM, WM, basal ganglia, ventricles, brain stem, and cerebellum of a testing volume, obtained with CEREBRUM7T on sub-013_ses-001. A light smoothing operation is performed (50 iterations - BrainVoyager) - no manual corrections.
 
+<p align="center">
+<div class="sketchfab-embed-wrapper"> <iframe title="CEREBRUM7T" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="1280" height="512" src="https://sketchfab.com/models/d06ac0deeb9945159404ef06893a02a7/embed?autospin=0&autostart=1"> </iframe> </div>
+</p> 
 <!--
 <p align="center">
 <img src="https://media.giphy.com/media/3o7btQ0NH6Kl8CxCfK/giphy.gif" height="300" />  
 </p> -->
 
-In result pages, there are results of our method with data from two different sites and settings: 
+In the following pages, there are results of our method with data from three different sites and settings: 
 
 - <a href="https://rocknroll87q.github.io/cerebrum7t/results_glasgow">Pag. 1</a> - training and testing on Glasgow data and 
 - <a href="https://rocknroll87q.github.io/cerebrum7t/results_ahead">Pag. 2</a> - fine tuning experiment on AHEAD data.
