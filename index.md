@@ -1,4 +1,3 @@
-
 <p align="center">
 <img src="./misc/graphical_abstract.png" width="800" />  
 </p>
@@ -19,6 +18,8 @@ Furthermore, to allow replicability and encourage extensions, we release the cod
 
 <hr>
 # Results
+
+<div class="sketchfab-embed-wrapper"> <iframe title="CEREBRUM7T" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="1280" height="720" src="https://sketchfab.com/models/d06ac0deeb9945159404ef06893a02a7/embed?autospin=0&autostart=1"> </iframe> </div>
 
 <!--
 <p align="center">
