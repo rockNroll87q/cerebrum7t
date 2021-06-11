@@ -41,6 +41,10 @@ For further inspections, yon can download the segmentation masks for both manual
 
 ### Results
 
+Figure 7-S (of the paper). Left - T1w with overlaid the manual ground truth of a testing volume of Schneider et al. (2019) data where the green label corresponds to "blood vessel". Right - Probability map obtained by CEREBRUM-7T for the blood vessel class. 
+
+<center><img src="./results/Schneider19/schneider_blood_vessels.png"/></center>
+
 <table align="center" cellspacing="0" cellpadding="0">
  <tr>
  	<td><b style="font-size:20px">Subj ID</b></td>

@@ -35,7 +35,7 @@ The segmented classes and the color code used below are:
 
 ### Results
 
-Result inspection on AHEAD (testing) data. Two sets of columns are shown: FreeSurfer on the left and CEREBRUM-7T on the right. Yellow arrows point to errors. Contour colors are the same used in Figure 2 and Figure 3 for different structures. To notice how there is an overlap between inner and outer boundaries of structures. For example, the inner boundary of GM corresponds to the outer boundary of WM (and only one is displayed).
+Result inspection on AHEAD (testing) data. Two sets of columns are shown: FreeSurfer on the left and CEREBRUM-7T on the right. Yellow arrows point to errors. Contour color code is the same used in Figure 2 and Figure 3 for different structures. Please notice that perfectly contiguous structures show overlapping boundaries (so that only one is visible). For example, the inner boundary of GM corresponds to the outer boundary of WM (and only one is displayed).
 
 <center><img src="./results/AHEAD/contours.png"/></center>
 
