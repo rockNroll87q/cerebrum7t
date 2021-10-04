@@ -6,15 +6,7 @@
 <hr>
 # Abstract
 
-Ultra high-field MRI enables sub-millimetre resolution imaging of the human brain, allowing for the resolution of functional circuits at the meso-scale of cortical layers.
-An essential step in many functional and structural neuroimaging studies is segmentation, the operation of partitioning the MR brain images to delineate anatomical structures.
-Despite recent efforts in brain imaging analysis, the literature lacks of accurate and fast methods for segmenting 7 Tesla (7T) brain MRI.
-We here present `CEREBRUM-7T`, an optimised end-to-end Convolutional Neural Network (CNN) architecture, that allows for the segmentation of a whole 7T T1w MRI brain volume at once, thus overcoming the drawbacks of partitioning the volume into 2D or 3D tiles. 
-Training is performed in a weakly supervised fashion, exploiting labelling with errors obtained with automatic state-of-the-art methods. 
-The trained model is able to produce accurate multi-structure segmentation masks on six different classes in only a few seconds. 
-In the experimental part, a combination of objective numerical evaluations and subjective analysis carried out by experienced neuroimaging users, confirms that the proposed solution outperforms the training labels it was trained on in segmentation accuracy, and is suitable for neuroimaging studies, such as layer fMRI studies. 
-Taking advantage of a fine-tuning operation on a reduced set of volumes, we also show how it is possible to efficiently and effectively apply `CEREBRUM-7T` to data from different sites.
-Furthermore, to allow replicability and encourage extensions, we release the code, 7T data (142 volumes), and other materials, including the training labels and the Turing test.
+Ultra high-field MRI enables sub-millimetre resolution imaging of the human brain, allowing the study of functional circuits of cortical layers at the meso-scale. An essential step in many functional and structural neuroimaging studies is segmentation, the operation of partitioning the MR images in anatomical structures. Despite recent efforts in brain imaging analysis, the literature lacks in accurate and fast methods for segmenting 7 Tesla (7T) brain MRI. We here present `CEREBRUM-7T`, an optimised end-to-end Convolutional Neural Network (CNN), that allows fully automatic segmentation of a whole 7T T1w MRI brain volume at once, without partitioning the volume, preprocessing, nor aligning it to an atlas. The trained model is able to produce accurate multi-structure segmentation masks on six different classes plus background in only a few seconds. The experimental part, a combination of objective numerical evaluations and subjective analysis, confirms that the proposed solution outperforms the training labels it was trained on, and is suitable for neuroimaging studies, such as layer fMRI studies. Taking advantage of a fine-tuning operation on a reduced set of volumes, we also show how it is possible to effectively apply `CEREBRUM-7T` to different sites data. Furthermore, we release the code, 7T data, and other materials, including the training labels and the Turing test.
 
 <hr>
 # Results
@@ -97,20 +89,22 @@ The source code to replicate the test is made available [here](https://github.co
 <hr>
 # Citation
 
-Svanera, M., Benini, S., Bontempi, D., & Muckli, L. (2020). CEREBRUM-7T: Fast and Fully-volumetric Brain Segmentation of 7 Tesla MR Volumes. bioRxiv.
+Svanera, M., Benini, S., Bontempi, D., & Muckli, L. (2021). CEREBRUM-7T: Fast and Fully Volumetric Brain Segmentation of 7 Tesla MR Volumes. *Human Brain Mapping*, 1– 18. [doi.org/10.1002/hbm.25636](https://doi.org/10.1002/hbm.25636)
 
 ```
-@article {Svanera2020.07.07.191536,
+@article{SvaneraHBM21Cerebrum7T,
 	author = {Svanera, Michele and Benini, Sergio and Bontempi, Dennis and Muckli, Lars},
-	title = {CEREBRUM-7T: Fast and Fully-volumetric Brain Segmentation of 7 Tesla MR Volumes},
-	elocation-id = {2020.07.07.191536},
-	year = {2020},
-	doi = {10.1101/2020.07.07.191536},
-	publisher = {Cold Spring Harbor Laboratory},
-	URL = {https://www.biorxiv.org/content/early/2020/12/03/2020.07.07.191536},
-	eprint = {https://www.biorxiv.org/content/early/2020/12/03/2020.07.07.191536.full.pdf},
-	journal = {bioRxiv}
+	title = {CEREBRUM-7T: Fast and Fully Volumetric Brain Segmentation of 7 Tesla MR Volumes},
+	journal = {Human Brain Mapping},
+	volume = {n/a},
+	number = {n/a},
+	pages = {},
+	keywords = {3D image analysis, brain MRI segmentation, convolutional neural networks, weakly supervised learning},
+	doi = {https://doi.org/10.1002/hbm.25636},
+	url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.25636},
+	eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/hbm.25636},
 }
+
 ```
 
 <hr>
