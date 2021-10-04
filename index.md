@@ -104,7 +104,6 @@ Svanera, M., Benini, S., Bontempi, D., & Muckli, L. (2021). CEREBRUM-7T: Fast an
 	url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.25636},
 	eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/hbm.25636},
 }
-
 ```
 
 <hr>
