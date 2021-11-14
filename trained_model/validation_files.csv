@@ -1,5 +1,0 @@
-validation,GT
-/analyse/Project0235/segmentator/data/glasgow/7T/BIDS/sub-001/anat/sub-001_ses-001_T1w.nii.gz,/analyse/Project0235/segmentator/data/glasgow/7T/BIDS/sub-001/seg/sub-001_ses-001_training_labels.nii.gz
-/analyse/Project0235/segmentator/data/glasgow/7T/BIDS/sub-011/anat/sub-011_ses-001_T1w.nii.gz,/analyse/Project0235/segmentator/data/glasgow/7T/BIDS/sub-011/seg/sub-011_ses-001_training_labels.nii.gz
-/analyse/Project0235/segmentator/data/glasgow/7T/BIDS/sub-011/anat/sub-011_ses-002_T1w.nii.gz,/analyse/Project0235/segmentator/data/glasgow/7T/BIDS/sub-011/seg/sub-011_ses-002_training_labels.nii.gz
-/analyse/Project0235/segmentator/data/glasgow/7T/BIDS/sub-036/anat/sub-036_ses-001_T1w.nii.gz,/analyse/Project0235/segmentator/data/glasgow/7T/BIDS/sub-036/seg/sub-036_ses-001_training_labels.nii.gz
