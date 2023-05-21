@@ -192,7 +192,7 @@ def thread_function(j_augm, T1, GT, i_subj_full_id, j_sessions):
     nib.save(GT_augm, gt_augm_fullpath)
 
     # If the augmented GT or T1 is not created, then re-run the function
-    if not os.path.exists(gt_augm_fullpath) or not os.path.exists(gt_augm_fullpath):
+    if not os.path.exists(t1_augm_fullpath) or not os.path.exists(gt_augm_fullpath):
         thread_function(j_augm, T1, GT, i_subj_full_id, j_sessions)
     else:
         print(f'{j_augm} ', end='')
