@@ -69,6 +69,7 @@ For an extended description of every option, please run `python3 ./training.py -
 
 ### Fine-tuning
 
+Please note that the `GT_volume` needs to be sequentially incremented (i.e. labels need to be 0, 1, 2, 3, etc.).
 Here the command used to obtained for [AHEAD results](https://rocknroll87q.github.io/cerebrum7t/results_ahead):
 
 ~~~
@@ -106,6 +107,8 @@ python /cerebrum7t/src/training.py --learning_rate 0.0005 --GT_to_predict 'train
 ~~~
 
 ### Fine-tuning
+
+Please note that the `GT_volume` needs to be sequentially incremented (i.e. labels need to be 0, 1, 2, 3, etc.).
 
 ~~~
 docker run -it \
@@ -161,6 +164,7 @@ python /cerebrum7t/src/training.py --learning_rate 0.0005 --GT_to_predict 'train
 
 ### Fine-tuning
 
+Please note that the `GT_volume` needs to be sequentially incremented (i.e. labels need to be 0, 1, 2, 3, etc.).
 
 ~~~
 export SINGULARITY_HOME=$PWD:/home/$USER
