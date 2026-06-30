@@ -202,4 +202,5 @@ python /cerebrum7t/src/testing.py --training_name 'training_YYYY-MM-DD_etc'
 <hr>
 # Testing on OpenNeuro data
 
-Note: if you are testing the [trained model](https://github.com/rockNroll87q/cerebrum7t/tree/master/trained_model) on the dataset published on [OpenNeuro](https://openneuro.org/datasets/ds003642/versions/1.1.0), please notice that you need to download the  `mean` and `std` volumes [at this link](https://gla-my.sharepoint.com/:f:/g/personal/michele_svanera_glasgow_ac_uk/IgAmEQHwmGLVQJqRetTzouOzAaKf84iHVVaPgnn7P3ROaiQ?e=KloGzj) (psw: `rocknroll87q/cerebrum7t`).
+Note: if you are testing the [trained model](https://github.com/rockNroll87q/cerebrum7t/tree/master/trained_model) on the dataset published on [OpenNeuro](https://openneuro.org/datasets/ds003642/versions/1.1.0), please notice that you need to download the  `mean` and `std` volumes [at this link](https://gla-my.sharepoint.com/:f:/g/personal/michele_svanera_glasgow_ac_uk/IgAmEQHwmGLVQJqRetTzouOzAaKf84iHVVaPgnn7P3ROaiQ?e=rREjeE) (psw: `rocknroll87q/cerebrum7t`).
+
